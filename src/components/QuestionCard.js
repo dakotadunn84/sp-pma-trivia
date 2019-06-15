@@ -1,4 +1,5 @@
 import React from 'react';
+import './QuestionCard.css';
 import { Card, CardFooter, CardHeader, CardBody, CardText } from 'reactstrap';
 
 
@@ -25,9 +26,9 @@ class QuestionCard extends React.Component {
     renderContent() {
         if (this.state.status === "start") {
             return (
-                <Card className="text-center">
+                <Card className="text-center tall" >
                     <CardBody>
-                        <CardText>{this.props.pointValue}</CardText>
+                        <CardText className="start">{this.props.pointValue}</CardText>
                     </CardBody>
                 </Card>
             );
@@ -35,9 +36,9 @@ class QuestionCard extends React.Component {
 
         if (this.state.status === "question") {
             return (
-                <Card className="text-center">
-                    <CardBody>
-                        <CardText>{this.props.question}</CardText>
+                <Card className="text-center question tall" >
+                    <CardBody className="d-flex align-items-center">
+                        <CardText className="wide">{this.props.question}</CardText>
                     </CardBody>
                 </Card>
             );
@@ -45,10 +46,10 @@ class QuestionCard extends React.Component {
         
         if (this.state.status === "done") {
             return (
-                <Card className="text-center">
+                <Card className="text-center done tall" >
                     <CardHeader>{this.props.pointValue}</CardHeader>
-                    <CardBody>
-                        <CardText>{this.props.question}</CardText>
+                    <CardBody className="d-flex align-items-center">
+                        <CardText className="wide">{this.props.question}</CardText>
                     </CardBody>
                     <CardFooter className="text-muted">{this.props.answer}</CardFooter>
                 </Card>

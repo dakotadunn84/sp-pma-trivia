@@ -1,0 +1,40 @@
+.start{
+   color: #009500;
+   font-size: 100px;
+   font-weight: bold;
+   
+}
+
+.question{
+    height: 600px;
+    width: 1050px;
+    vertical-align: middle;
+    z-index: 2;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+
+.done{
+    width: 308px;
+    z-index: 1;
+    animation-name: shrink;
+    animation-duration: 2s;
+}
+
+@keyframes grow {
+    0% {width: 308px;}
+    100% {width: 1050px}
+}
+
+@keyframes shrink {
+    0% {width: 1050px}
+    100% {width: 308px}
+}
+
+.tall{
+    height: 200px;
+}
+
+.wide{
+    width: 100%;
+}
