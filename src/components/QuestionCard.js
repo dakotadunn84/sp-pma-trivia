@@ -1,24 +1,25 @@
 import React from 'react';
 import './QuestionCard.css';
 import { Card, CardFooter, CardHeader, CardBody, CardText } from 'reactstrap';
+import Modalmine from './Modal';
 
 
 class QuestionCard extends React.Component {
-    state = {status: 'start'};
+    state = { status: 'start' };
 
     onInputClick = () => {
 
-        if(this.state.status==='start'){
-            this.setState({status:'question'})
+        if (this.state.status === 'start') {
+            this.setState({ status: 'question' })
         }
 
-        if(this.state.status==='question'){
-            this.setState({status:'done'})
+        if (this.state.status === 'question') {
+            this.setState({ status: 'done' })
         }
 
         // Optional QuestionCard reset
         // if(this.state.status==='done'){
-            
+
         //     this.setState({status:'start'})
         // }
     };
@@ -36,14 +37,18 @@ class QuestionCard extends React.Component {
 
         if (this.state.status === "question") {
             return (
-                <Card className="text-center question tall" >
-                    <CardBody className="d-flex align-items-center">
-                        <CardText className="wide">{this.props.question}</CardText>
-                    </CardBody>
-                </Card>
+                <div>
+                    <Modalmine category={this.props.category} question={this.props.question} pointValue={this.props.pointValue} answer={this.props.answer}></Modalmine>
+                    <Card className="text-center tall" >
+                        <CardBody>
+                            <CardText className="start">{this.props.pointValue}</CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+
             );
         }
-        
+
         if (this.state.status === "done") {
             return (
                 <Card className="text-center done tall" >
