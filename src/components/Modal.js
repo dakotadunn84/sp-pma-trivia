@@ -16,12 +16,22 @@ class Modalmine extends React.Component {
         this.toggle = this.toggle.bind(this);
         this.toggleNested = this.toggleNested.bind(this);
         this.toggleAll = this.toggleAll.bind(this);
+        // this.test = this.test.bind(this);
     }
+
+    // onClick(event) {
+    //     test() {
+    //         console.log("hello")
+    //     }
+        
+    //     this.test();
+    //  }
 
     toggle() {
         this.setState(prevState => ({
             modal: !prevState.modal
         }));
+        // console.log(this.props)
     }
 
     toggleNested() {
@@ -38,6 +48,8 @@ class Modalmine extends React.Component {
         });
     }
 
+
+
     render() {
         return (
             <div>
@@ -48,10 +60,10 @@ class Modalmine extends React.Component {
                         {this.props.question}
                         <Modal className="justify-content-center text-center" isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
                             <ModalHeader className="justify-content-center text-center">{this.props.category}<br />{this.props.pointValue}</ModalHeader>
-                            <ModalBody>{this.props.answer}</ModalBody>
+                            <ModalBody>{this.props.answer}<br />{this.props.funfact}</ModalBody>
                             <ModalFooter className="justify-content-center">
                                 <Row className="justify-content-between footers">
-                                    <Button color="primary" onClick={this.toggle}>Player 1</Button>
+                                    <Button color="primary" onClick={this.props.questioncardP1ScoreUpdate}>Player 1</Button>
                                     <Button color="danger" onClick={this.toggle}>Player 2</Button>
                                 </Row>
                             </ModalFooter>
