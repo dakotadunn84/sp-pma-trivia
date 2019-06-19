@@ -1,6 +1,6 @@
 import React from 'react';
 import './CategoryCard.css';
-import { Card, CardBody, CardText } from 'reactstrap';
+import { Card, CardBody, CardText, img } from 'reactstrap';
 
 class CategoryCard extends React.Component {
     state = {status: ''};
@@ -10,6 +10,7 @@ class CategoryCard extends React.Component {
                 <Card className="text-center tall">
                     <CardBody>
                         <CardText className="title">{this.props.category}</CardText>
+                        <img className="pic"/>
                     </CardBody>
                 </Card>
             );

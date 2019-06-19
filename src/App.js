@@ -4,6 +4,7 @@ import QuestionCard from './components/QuestionCard';
 import CategoryCard from './components/CategoryCard';
 import Player2Card from './components/Player2Card';
 import { Container, CardDeck, Col } from 'reactstrap';
+import Categories from './Categories';
 
 
 class App extends React.Component {
@@ -11,8 +12,9 @@ class App extends React.Component {
     super(props);
     this.state = {
         player1score: 0,
-        player2score:100
+        player2score: 0
     };
+    console.log( Categories[0])
 
     this.onP1ScoreUpdate = this.onP1ScoreUpdate.bind(this);
     this.onP2ScoreUpdate = this.onP2ScoreUpdate.bind(this);
@@ -30,7 +32,7 @@ class App extends React.Component {
     this.setState({ player2score: this.state.player2score + points});
     console.log("Update Player 2 score by " + points + " points");
   }
-
+  
   render() {
     return (
       <div className="App">
@@ -38,12 +40,12 @@ class App extends React.Component {
         <Container className="d-flex align-items-center">
         <Container>
           <CardDeck className="space">
-              <Col xs="6" sm="4"><CategoryCard category="Apples" /></Col>
+              <Col xs="6" sm="4"><CategoryCard category={Categories[0].category} /></Col>
               <Col xs="6" sm="4"><CategoryCard category="Bananas" /></Col>
               <Col xs="6" sm="4"><CategoryCard category="Carrots" /></Col>
           </CardDeck>
           <CardDeck className="space">
-            <Col xs="6" sm="4"><QuestionCard category="Apples" pointValue={100} question="Do apples have seeds?" answer="Yes" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[0].category} pointValue={Categories[0].questions[0].pointvalue} question={Categories[0].questions[0].question} answer={Categories[0].questions[0].answer} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
             <Col xs="6" sm="4"><QuestionCard category="Bananas" pointValue={100} question="What color are bananas?" answer="Yellow" funfact="Bananas are yellow because they make people happy" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
             <Col xs="6" sm="4"><QuestionCard category="Carrots" pointValue={100} question="What color are carrots?" answer="Orange" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
           </CardDeck>
