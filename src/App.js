@@ -6,6 +6,10 @@ import Player2Card from './components/Player2Card';
 import { Container, CardDeck, Col } from 'reactstrap';
 import Categories from './Categories';
 
+const catRandomizer = {
+  cat1: 0,
+  cat2: Math.floor(Math.random() * 10)
+}
 
 class App extends React.Component {
   constructor(props) {
@@ -18,11 +22,8 @@ class App extends React.Component {
 
     this.onP1ScoreUpdate = this.onP1ScoreUpdate.bind(this);
     this.onP2ScoreUpdate = this.onP2ScoreUpdate.bind(this);
+    // this.catRandomizer = this.catRandomizer.bind(this);
 }
-
-
-
-  // state={player1score: 0, player2score:100};
 
   onP1ScoreUpdate(points) {
     this.setState({ player1score: this.state.player1score + points});
@@ -45,8 +46,8 @@ class App extends React.Component {
               <Col xs="6" sm="4"><CategoryCard category="Carrots" /></Col>
           </CardDeck>
           <CardDeck className="space">
-            <Col xs="6" sm="4"><QuestionCard category={Categories[0].category} pointValue={Categories[0].questions[0].pointvalue} question={Categories[0].questions[0].question} answer={Categories[0].questions[0].answer} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category="Bananas" pointValue={100} question="What color are bananas?" answer="Yellow" funfact="Bananas are yellow because they make people happy" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat1}`].category} pointValue={Categories[0].questions[0].pointvalue} question={Categories[0].questions[0].question} answer={Categories[0].questions[0].answer} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category="Bananas" pointValue={catRandomizer.cat2} question="What color are bananas?" answer="Yellow" funfact="Bananas are yellow because they make people happy" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
             <Col xs="6" sm="4"><QuestionCard category="Carrots" pointValue={100} question="What color are carrots?" answer="Orange" p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
           </CardDeck>
           <CardDeck className="space">
