@@ -1,9 +1,11 @@
 .title {
-    font-size: 32px
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .pic {
     width: 100%;
-    height: 60%;
-    background-image: url('../images/Apples.png');;
+    height: 65%;
+    /* background-image: url('../images/Apples.png');; */
 }

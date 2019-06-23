@@ -81,7 +81,7 @@ class QuestionCard extends React.Component {
                 <Card className="text-center done tall" >
                     <CardHeader>{this.props.pointValue}</CardHeader>
                     <CardBody className="d-flex align-items-center">
-                        <CardText className="wide">{this.props.question}</CardText>
+                        <CardText className="wide block-ellipsis">{this.props.question}</CardText>
                     </CardBody>
                     <CardFooter className="text-muted">{this.props.answer}</CardFooter>
                 </Card>
