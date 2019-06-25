@@ -6,11 +6,12 @@ import Player2Card from './components/Player2Card';
 import { Container, CardDeck, Col } from 'reactstrap';
 import Categories from './Categories';
 
-const catRandomizer = {
-  cat1: Math.floor(Math.random() * 6),
-  cat2: Math.floor(Math.random() * 6),
-  cat3: Math.floor(Math.random() * 6)
+function shuffle(array) {
+  array.sort(() => Math.random() - 0.5);
 }
+
+let arr = Categories;
+shuffle(arr);
 
 class App extends React.Component {
   constructor(props) {
@@ -42,24 +43,24 @@ class App extends React.Component {
         <Container className="d-flex align-items-center">
         <Container>
           <CardDeck className="space">
-              <Col xs="6" sm="4"><CategoryCard category={Categories[`${catRandomizer.cat1}`].category} img={Categories[`${catRandomizer.cat1}`].image}/></Col>
-              <Col xs="6" sm="4"><CategoryCard category={Categories[`${catRandomizer.cat2}`].category} img={Categories[`${catRandomizer.cat2}`].image}/></Col>
-              <Col xs="6" sm="4"><CategoryCard category={Categories[`${catRandomizer.cat3}`].category} img={Categories[`${catRandomizer.cat3}`].image}/></Col>
+              <Col xs="6" sm="4"><CategoryCard category={Categories[0].category} img={Categories[0].image}/></Col>
+              <Col xs="6" sm="4"><CategoryCard category={Categories[1].category} img={Categories[1].image}/></Col>
+              <Col xs="6" sm="4"><CategoryCard category={Categories[2].category} img={Categories[2].image}/></Col>
           </CardDeck>
           <CardDeck className="space">
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat1}`].category} pointValue={Categories[`${catRandomizer.cat1}`].questions[0].pointvalue} question={Categories[`${catRandomizer.cat1}`].questions[0].question} answer={Categories[`${catRandomizer.cat1}`].questions[0].answer} funfact={Categories[`${catRandomizer.cat1}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat2}`].category} pointValue={Categories[`${catRandomizer.cat2}`].questions[0].pointvalue} question={Categories[`${catRandomizer.cat2}`].questions[0].question} answer={Categories[`${catRandomizer.cat2}`].questions[0].answer} funfact={Categories[`${catRandomizer.cat2}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat3}`].category} pointValue={Categories[`${catRandomizer.cat3}`].questions[0].pointvalue} question={Categories[`${catRandomizer.cat3}`].questions[0].question} answer={Categories[`${catRandomizer.cat3}`].questions[0].answer} funfact={Categories[`${catRandomizer.cat3}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[0].category} pointValue={Categories[0].questions[0].pointvalue} question={Categories[0].questions[0].question} answer={Categories[0].questions[0].answer} funfact={Categories[0].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[1].category} pointValue={Categories[1].questions[0].pointvalue} question={Categories[1].questions[0].question} answer={Categories[1].questions[0].answer} funfact={Categories[1].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[2].category} pointValue={Categories[2].questions[0].pointvalue} question={Categories[2].questions[0].question} answer={Categories[2].questions[0].answer} funfact={Categories[2].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
           </CardDeck>
           <CardDeck className="space">
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat1}`].category} pointValue={Categories[`${catRandomizer.cat1}`].questions[1].pointvalue} question={Categories[`${catRandomizer.cat1}`].questions[1].question} answer={Categories[`${catRandomizer.cat1}`].questions[1].answer} funfact={Categories[`${catRandomizer.cat1}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat2}`].category} pointValue={Categories[`${catRandomizer.cat2}`].questions[1].pointvalue} question={Categories[`${catRandomizer.cat2}`].questions[1].question} answer={Categories[`${catRandomizer.cat2}`].questions[1].answer} funfact={Categories[`${catRandomizer.cat2}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat3}`].category} pointValue={Categories[`${catRandomizer.cat3}`].questions[1].pointvalue} question={Categories[`${catRandomizer.cat3}`].questions[1].question} answer={Categories[`${catRandomizer.cat3}`].questions[1].answer} funfact={Categories[`${catRandomizer.cat3}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[0].category} pointValue={Categories[0].questions[1].pointvalue} question={Categories[0].questions[1].question} answer={Categories[0].questions[1].answer} funfact={Categories[0].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[1].category} pointValue={Categories[1].questions[1].pointvalue} question={Categories[1].questions[1].question} answer={Categories[1].questions[1].answer} funfact={Categories[1].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[2].category} pointValue={Categories[2].questions[1].pointvalue} question={Categories[2].questions[1].question} answer={Categories[2].questions[1].answer} funfact={Categories[2].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
           </CardDeck>
           <CardDeck className="space">
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat1}`].category} pointValue={Categories[`${catRandomizer.cat1}`].questions[2].pointvalue} question={Categories[`${catRandomizer.cat1}`].questions[2].question} answer={Categories[`${catRandomizer.cat1}`].questions[2].answer} funfact={Categories[`${catRandomizer.cat1}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat2}`].category} pointValue={Categories[`${catRandomizer.cat2}`].questions[2].pointvalue} question={Categories[`${catRandomizer.cat2}`].questions[2].question} answer={Categories[`${catRandomizer.cat2}`].questions[2].answer} funfact={Categories[`${catRandomizer.cat2}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
-            <Col xs="6" sm="4"><QuestionCard category={Categories[`${catRandomizer.cat3}`].category} pointValue={Categories[`${catRandomizer.cat3}`].questions[2].pointvalue} question={Categories[`${catRandomizer.cat3}`].questions[2].question} answer={Categories[`${catRandomizer.cat3}`].questions[2].answer} funfact={Categories[`${catRandomizer.cat3}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[0].category} pointValue={Categories[0].questions[2].pointvalue} question={Categories[0].questions[2].question} answer={Categories[0].questions[2].answer} funfact={Categories[0].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[1].category} pointValue={Categories[1].questions[2].pointvalue} question={Categories[1].questions[2].question} answer={Categories[1].questions[2].answer} funfact={Categories[1].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
+            <Col xs="6" sm="4"><QuestionCard category={Categories[2].category} pointValue={Categories[2].questions[2].pointvalue} question={Categories[2].questions[2].question} answer={Categories[2].questions[2].answer} funfact={Categories[2].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate}/></Col>
           </CardDeck>
         </Container>
         </Container>
