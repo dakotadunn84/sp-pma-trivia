@@ -3,3 +3,11 @@
     /* display: flex;
     justify-content: space-between; */
 }
+
+.bigtext {
+    font-size: 300%;
+}
+
+.biggertext {
+    font-size: 1000px;
+}

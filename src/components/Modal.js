@@ -54,11 +54,11 @@ class Modalmine extends React.Component {
         return (
             <div>
                 {/* <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}hello</Button> */}
-                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                <Modal backdrop={"static"} size={"lg"} isOpen={this.state.modal} toggle={this.toggle} className="bigtext">
                     <ModalHeader className="justify-content-center text-center">{this.props.category}<br />{this.props.pointValue}<br /></ModalHeader>
                     <ModalBody className="text-center">
                         {this.props.question}
-                        <Modal className="justify-content-center text-center" isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
+                        <Modal backdrop={"static"} size={"lg"} className="justify-content-center text-center bigtext" isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
                             <ModalHeader className="justify-content-center text-center">{this.props.category}<br />{this.props.pointValue}</ModalHeader>
                             <ModalBody>{this.props.answer}<br />{this.props.funfact}</ModalBody>
                             <ModalFooter className="justify-content-center">
