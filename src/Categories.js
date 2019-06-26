@@ -19,7 +19,8 @@ module.exports = [
                 QuestionID: 1041,
                 pointvalue: 300,
                 question: "Why do almost all modern farmers use the technique known as grafting when growing apple crops?",
-                answer: "Apples feature a characteristic known as heterozygosity, meaning they cannot grow true to seed."
+                answer: "The apple seeds will not mature.",
+                funFact: "Apples feature a characteristic known as heterozygosity, meaning they cannot grow true to seed."
             }
         ]
     },
