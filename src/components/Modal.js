@@ -64,6 +64,7 @@ class Modalmine extends React.Component {
                             <ModalFooter className="justify-content-center">
                                 <Row className="justify-content-between footers">
                                     <Button color="primary" onClick={this.props.questioncardP1ScoreUpdate}>Player 1</Button>
+                                    <Button color="secondary" onClick={this.props.onNobodyClick}>Nobody</Button>
                                     <Button color="danger" onClick={this.props.questioncardP2ScoreUpdate}>Player 2</Button>
                                 </Row>
                             </ModalFooter>

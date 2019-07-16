@@ -49,7 +49,17 @@ class QuestionCard extends React.Component {
             // this.props.p1scoreupdate(this.props.pointValue)
         }
     };
+    onNobodyClick = () => {
 
+        // if (this.state.status === 'start') {
+        //     this.setState({ status: 'question' })
+        // }
+
+        if (this.state.status === 'question') {
+            this.setState({ status: 'done' });
+            // this.props.p1scoreupdate(this.props.pointValue)
+        }
+    };
     renderContent() {
         if (this.state.status === "start") {
             // console.log(this.props)
@@ -65,7 +75,7 @@ class QuestionCard extends React.Component {
         if (this.state.status === "question") {
             return (
                 <div>
-                    <Modalmine category={this.props.category} question={this.props.question} pointValue={this.props.pointValue} answer={this.props.answer} funfact={this.props.funfact} questioncardP1ScoreUpdate={this.onP1ButtonClick} questioncardP2ScoreUpdate={this.onP2ButtonClick}></Modalmine>
+                    <Modalmine category={this.props.category} question={this.props.question} pointValue={this.props.pointValue} answer={this.props.answer} funfact={this.props.funfact} questioncardP1ScoreUpdate={this.onP1ButtonClick} questioncardP2ScoreUpdate={this.onP2ButtonClick} onNobodyClick={this.onNobodyClick}></Modalmine>
                     <Card className="text-center tall" >
                         <CardBody>
                             <CardText className="start">{this.props.pointValue}</CardText>
