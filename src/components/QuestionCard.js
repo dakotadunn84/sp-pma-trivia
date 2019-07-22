@@ -5,13 +5,18 @@ import Modalmine from './Modal';
 
 
 class QuestionCard extends React.Component {
-    state = { status: 'start'};
+    state = { status: `${this.props.statusFromApp}`};
 
+    
+    
+    
     onInputClick = () => {
-
-        if (this.state.status === 'start') {
-            this.setState({ status: 'question' })
-        }
+        this.props.updateCardStateFromApp(`${this.props.name}`)
+        
+        // if (this.state.status === 'start') {
+        //     console.log(`${this.props.statusFromApp}`)
+        //     this.setState({ status: 'question' })
+        // }
 
         // if (this.state.status === 'question') {
         //     this.setState({ status: 'done' });
@@ -24,6 +29,17 @@ class QuestionCard extends React.Component {
         //     this.setState({status:'start'})
         // }
     };
+    componentDidUpdate(prevProps) {
+        console.log("from component did update :" + this.state.status)
+        if (this.props.statusFromApp !== prevProps.statusFromApp) {
+            this.setState({ status: `${this.props.statusFromApp}`});
+        }
+           
+    } 
+    // componentDidMount() {
+    //     console.log("from component did mount :" + this.state.status)
+    //     this.setState({ status: `${this.props.statusFromApp}`})
+    // }
 
     onP1ButtonClick = () => {
         this.props.p1scoreupdate(this.props.pointValue)
@@ -61,6 +77,7 @@ class QuestionCard extends React.Component {
         }
     };
     renderContent() {
+        // console.log(this.props)
         if (this.state.status === "start") {
             // console.log(this.props)
             return (

@@ -22,7 +22,17 @@ class App extends React.Component {
       cat1: 0,
       cat2: 1,
       cat3: 2,
-      arrChecker: 3
+      arrChecker: 3,
+      cat1x100: 'start',
+      cat2x100: 'start',
+      cat3x100: 'start',
+      cat1x200: 'start',
+      cat2x200: 'start',
+      cat3x200: 'start',
+      cat1x300: 'start',
+      cat2x300: 'start',
+      cat3x300: 'start',
+      gameStatus: 'inProgress'
     };
 
     this.onP1ScoreUpdate = this.onP1ScoreUpdate.bind(this);
@@ -39,17 +49,50 @@ class App extends React.Component {
     console.log("Update Player 2 score by " + points + " points");
   }
 
+  updateCardState = (name) => {
+    console.log(name)
+    var key = name
+    var val = 'question'
+    var obj  = {}
+    obj[key] = val
+    this.setState(obj)
+  }
+
   newGame(){
-    console.log(Categories[`${this.state.arrChecker}`])
+    this.newGameNextCategories();
+    this.newGameResetPoints();
+    this.newGameResetQuestionCards();
+  }
+
+  newGameNextCategories = () => {
+    // console.log(Categories[`${this.state.arrChecker}`])
 
     if (Categories[`${this.state.arrChecker}`] === undefined) {
       window.location.reload();
     };
 
-    this.setState({ arrChecker: this.state.arrChecker += 3});
-    this.setState({ cat1: this.state.cat1 += 3});
-    this.setState({ cat2: this.state.cat2 += 3});
-    this.setState({ cat3: this.state.cat3 += 3});
+    this.setState(prevState => ({arrChecker: prevState.arrChecker += 3}));
+    this.setState(prevState => ({cat1: prevState.cat1 += 3}));
+    this.setState(prevState => ({cat2: prevState.cat2 += 3}));
+    this.setState(prevState => ({cat3: prevState.cat3 += 3}));
+  }
+
+  newGameResetPoints = () => {
+    this.setState({ player1score: 0 });
+    this.setState({ player2score: 0 });
+  }
+
+  newGameResetQuestionCards = () => {
+    console.log("set question card status to start")
+    this.setState({ cat1x100: 'start' });
+    this.setState({ cat2x100: 'start' });
+    this.setState({ cat3x100: 'start' });
+    this.setState({ cat1x200: 'start' });
+    this.setState({ cat2x200: 'start' });
+    this.setState({ cat3x200: 'start' });
+    this.setState({ cat1x300: 'start' });
+    this.setState({ cat2x300: 'start' });
+    this.setState({ cat3x300: 'start' }); 
   }
 
   render() {
@@ -67,19 +110,19 @@ class App extends React.Component {
                 <Col xs="6" sm="4"><CategoryCard category={Categories[`${this.state.cat3}`].category} img={Categories[`${this.state.cat3}`].image} /></Col>
               </CardDeck>
               <CardDeck className="space">
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[0].pointvalue} question={Categories[`${this.state.cat1}`].questions[0].question} answer={Categories[`${this.state.cat1}`].questions[0].answer} funfact={Categories[`${this.state.cat1}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[0].pointvalue} question={Categories[`${this.state.cat2}`].questions[0].question} answer={Categories[`${this.state.cat2}`].questions[0].answer} funfact={Categories[`${this.state.cat2}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[0].pointvalue} question={Categories[`${this.state.cat3}`].questions[0].question} answer={Categories[`${this.state.cat3}`].questions[0].answer} funfact={Categories[`${this.state.cat3}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat1x100" statusFromApp={`${this.state.cat1x100}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[0].pointvalue} question={Categories[`${this.state.cat1}`].questions[0].question} answer={Categories[`${this.state.cat1}`].questions[0].answer} funfact={Categories[`${this.state.cat1}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat2x100" statusFromApp={`${this.state.cat2x100}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[0].pointvalue} question={Categories[`${this.state.cat2}`].questions[0].question} answer={Categories[`${this.state.cat2}`].questions[0].answer} funfact={Categories[`${this.state.cat2}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat3x100" statusFromApp={`${this.state.cat3x100}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[0].pointvalue} question={Categories[`${this.state.cat3}`].questions[0].question} answer={Categories[`${this.state.cat3}`].questions[0].answer} funfact={Categories[`${this.state.cat3}`].questions[0].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
               </CardDeck>
               <CardDeck className="space">
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[1].pointvalue} question={Categories[`${this.state.cat1}`].questions[1].question} answer={Categories[`${this.state.cat1}`].questions[1].answer} funfact={Categories[`${this.state.cat1}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[1].pointvalue} question={Categories[`${this.state.cat2}`].questions[1].question} answer={Categories[`${this.state.cat2}`].questions[1].answer} funfact={Categories[`${this.state.cat2}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[1].pointvalue} question={Categories[`${this.state.cat3}`].questions[1].question} answer={Categories[`${this.state.cat3}`].questions[1].answer} funfact={Categories[`${this.state.cat3}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat1x200" statusFromApp={`${this.state.cat1x200}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[1].pointvalue} question={Categories[`${this.state.cat1}`].questions[1].question} answer={Categories[`${this.state.cat1}`].questions[1].answer} funfact={Categories[`${this.state.cat1}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat2x200" statusFromApp={`${this.state.cat2x200}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[1].pointvalue} question={Categories[`${this.state.cat2}`].questions[1].question} answer={Categories[`${this.state.cat2}`].questions[1].answer} funfact={Categories[`${this.state.cat2}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat3x200" statusFromApp={`${this.state.cat3x200}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[1].pointvalue} question={Categories[`${this.state.cat3}`].questions[1].question} answer={Categories[`${this.state.cat3}`].questions[1].answer} funfact={Categories[`${this.state.cat3}`].questions[1].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
               </CardDeck>
               <CardDeck className="space">
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[2].pointvalue} question={Categories[`${this.state.cat1}`].questions[2].question} answer={Categories[`${this.state.cat1}`].questions[2].answer} funfact={Categories[`${this.state.cat1}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[2].pointvalue} question={Categories[`${this.state.cat2}`].questions[2].question} answer={Categories[`${this.state.cat2}`].questions[2].answer} funfact={Categories[`${this.state.cat2}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
-                <Col xs="6" sm="4"><QuestionCard category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[2].pointvalue} question={Categories[`${this.state.cat3}`].questions[2].question} answer={Categories[`${this.state.cat3}`].questions[2].answer} funfact={Categories[`${this.state.cat3}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat1x300" statusFromApp={`${this.state.cat1x300}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat1}`].category} pointValue={Categories[`${this.state.cat1}`].questions[2].pointvalue} question={Categories[`${this.state.cat1}`].questions[2].question} answer={Categories[`${this.state.cat1}`].questions[2].answer} funfact={Categories[`${this.state.cat1}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat2x300" statusFromApp={`${this.state.cat2x300}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat2}`].category} pointValue={Categories[`${this.state.cat2}`].questions[2].pointvalue} question={Categories[`${this.state.cat2}`].questions[2].question} answer={Categories[`${this.state.cat2}`].questions[2].answer} funfact={Categories[`${this.state.cat2}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
+                <Col xs="6" sm="4"><QuestionCard name="cat3x300" statusFromApp={`${this.state.cat3x300}`} updateCardStateFromApp={this.updateCardState} category={Categories[`${this.state.cat3}`].category} pointValue={Categories[`${this.state.cat3}`].questions[2].pointvalue} question={Categories[`${this.state.cat3}`].questions[2].question} answer={Categories[`${this.state.cat3}`].questions[2].answer} funfact={Categories[`${this.state.cat3}`].questions[2].funFact} p1scoreupdate={this.onP1ScoreUpdate} p2scoreupdate={this.onP2ScoreUpdate} /></Col>
               </CardDeck>
             </Col>
             <Col xs="6" sm="4" lg="2" className="d-flex flex-column">
