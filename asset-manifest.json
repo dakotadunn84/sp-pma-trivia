@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sp-pma-trivia/static/css/main.ee3eda7b.chunk.css",
+    "main.js": "/sp-pma-trivia/static/js/main.fe914056.chunk.js",
+    "main.js.map": "/sp-pma-trivia/static/js/main.fe914056.chunk.js.map",
+    "runtime~main.js": "/sp-pma-trivia/static/js/runtime~main.7eb5251a.js",
+    "runtime~main.js.map": "/sp-pma-trivia/static/js/runtime~main.7eb5251a.js.map",
+    "static/css/2.266e55a5.chunk.css": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css",
+    "static/js/2.afd1978b.chunk.js": "/sp-pma-trivia/static/js/2.afd1978b.chunk.js",
+    "static/js/2.afd1978b.chunk.js.map": "/sp-pma-trivia/static/js/2.afd1978b.chunk.js.map",
+    "index.html": "/sp-pma-trivia/index.html",
+    "precache-manifest.78bd15792901bf7d38ca7821d6d65bbd.js": "/sp-pma-trivia/precache-manifest.78bd15792901bf7d38ca7821d6d65bbd.js",
+    "service-worker.js": "/sp-pma-trivia/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.ee3eda7b.chunk.css.map": "/sp-pma-trivia/static/css/main.ee3eda7b.chunk.css.map",
+    "static/media/Apples.png": "/sp-pma-trivia/static/media/Apples.b8ed3d26.png",
+    "static/media/Grapes.png": "/sp-pma-trivia/static/media/Grapes.184726b9.png",
+    "static/media/Japan.png": "/sp-pma-trivia/static/media/Japan.d53da543.png",
+    "static/media/Latin & Baja.png": "/sp-pma-trivia/static/media/Latin & Baja.99751c72.png",
+    "static/media/Pears.png": "/sp-pma-trivia/static/media/Pears.7ddc0f7e.png",
+    "static/media/Stonefruit.png": "/sp-pma-trivia/static/media/Stonefruit.cd1eaed9.png"
+  }
+}
