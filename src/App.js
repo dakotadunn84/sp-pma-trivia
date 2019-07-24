@@ -22,7 +22,7 @@ class App extends React.Component {
       cat1: 0,
       cat2: 1,
       cat3: 2,
-      arrChecker: 3,
+      arrChecker: 6,
       cat1x100: 'start',
       cat2x100: 'start',
       cat3x100: 'start',
