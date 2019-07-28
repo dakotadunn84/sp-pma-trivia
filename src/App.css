@@ -2,8 +2,12 @@
   display: flex;
   height: 100vh;
   width: 100vw;
-  background-color: #e5f4e5;
+  background: linear-gradient(160deg, #cfe9cf 0%, #148a14 100%);
   margin: 0px;
+}
+
+.containers {
+  padding: 15px;
 }
 
 .space {

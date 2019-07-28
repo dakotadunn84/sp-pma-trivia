@@ -98,7 +98,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Container className="d-flex align-items-center flex-column" fluid={true}>
+        <Container className="containers" fluid={true}>
           <Row className="row justify-content-between h-80">
             <Col xs="6" sm="4" lg="2">
               <Player2Card category="Player 1" score={this.state.player1score} color="primary" />
