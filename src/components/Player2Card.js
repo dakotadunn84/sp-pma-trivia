@@ -7,10 +7,10 @@ class Player2Card extends React.Component {
 
     renderContent() {
             return (
-                <Card className="text-center tall" body inverse color={this.props.color}>
-                    <CardBody className="title mt-0">
+                <Card className="text-center tall noSidePadding" body inverse color={this.props.color}>
+                    <CardBody className="title noSidePadding">
                         <CardText className="title">{this.props.category}</CardText>
-                        <CardText className="title bigtext">{this.props.score}</CardText>
+                        <CardText className="text-center bigtext">{this.props.score}</CardText>
                     </CardBody>
                 </Card>
             );

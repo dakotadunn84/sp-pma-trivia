@@ -99,7 +99,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Container className="containers" fluid={true}>
-          <Row className="row justify-content-between h-80">
+          <Row className="row justify-content-between h-100">
             <Col xs="6" sm="4" lg="2">
               <Player2Card category="Player 1" score={this.state.player1score} color="primary" />
             </Col>

@@ -41,7 +41,7 @@
 
 /* ellipsis and block-ellipsis taken from here: https://codepen.io/joelsaupe/pen/ojmLWB */
 
-.ellipsis {
+/* .ellipsis {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -59,4 +59,4 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+  } */

@@ -54,17 +54,17 @@ class Modalmine extends React.Component {
         return (
             <div>
                 {/* <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}hello</Button> */}
-                <Modal backdrop={"static"} size={"lg"} isOpen={this.state.modal} toggle={this.toggle} className="bigtext">
+                <Modal backdrop={"static"} size={"lg"} isOpen={this.state.modal} toggle={this.toggle} className="modalbigtext">
                     <ModalHeader className="justify-content-center text-center">{this.props.category}<br />{this.props.pointValue}<br /></ModalHeader>
                     <ModalBody className="text-center">
                         {this.props.question}
-                        <Modal backdrop={"static"} size={"lg"} className="justify-content-center text-center bigtext" isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
+                        <Modal backdrop={"static"} size={"lg"} className="justify-content-center text-center modalbigtext" isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
                             <ModalHeader className="justify-content-center text-center">{this.props.category}<br />{this.props.pointValue}</ModalHeader>
                             <ModalBody>{this.props.answer}<br />{this.props.funfact}</ModalBody>
                             <ModalFooter className="justify-content-center">
                                 <Row className="justify-content-between footers">
                                     <Button color="primary" onClick={this.props.questioncardP1ScoreUpdate}>Player 1</Button>
-                                    <Button color="secondary" onClick={this.props.onNobodyClick}>Nobody</Button>
+                                    <Button color="secondary" onClick={this.props.onNobodyClick}>No Winner</Button>
                                     <Button color="danger" onClick={this.props.questioncardP2ScoreUpdate}>Player 2</Button>
                                 </Row>
                             </ModalFooter>

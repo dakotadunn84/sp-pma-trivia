@@ -7,7 +7,7 @@ class CategoryCard extends React.Component {
 
     renderContent() {
             return (
-                <Card className="text-center tall">
+                <Card className="text-center tall h-50">
                     <CardBody>
                         <CardText className="title">{this.props.category}</CardText>
                         <CardImg className="pic" src={require('../images/' + this.props.category + '.png')}/>
