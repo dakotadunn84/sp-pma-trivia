@@ -76,7 +76,23 @@ class QuestionCard extends React.Component {
             // this.props.p1scoreupdate(this.props.pointValue)
         }
     };
+
+    truncatedQuestion = () => {
+        let x = `${this.props.question}`
+
+        return x.split("").length > 80 ? x.split("").slice(0, 80).join('') + "...": x ;
+    };
+
+    truncatedAnswer = () => {
+        let x = `${this.props.answer}`
+
+        return x.split("").length > 35 ? x.split("").slice(0, 35).join('') + "...": x ;
+    };
+
     renderContent() {
+
+        
+
         // console.log(this.props)
         if (this.state.status === "start") {
             // console.log(this.props)
@@ -108,9 +124,9 @@ class QuestionCard extends React.Component {
                 <Card className="text-center done tall" >
                     <CardHeader>{this.props.pointValue}</CardHeader>
                     <CardBody className="text-center d-flex align-items-center">
-                        <CardText className="text-center wide block-ellipsis">{this.props.question}</CardText>
+                        <CardText className="text-center wide block-ellipsis">{this.truncatedQuestion()}</CardText>
                     </CardBody>
-                    <CardFooter className="text-muted">{this.props.answer}</CardFooter>
+                    <CardFooter className="text-muted">{this.truncatedAnswer()}</CardFooter>
                 </Card>
             );
         }
