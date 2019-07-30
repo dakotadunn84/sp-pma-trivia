@@ -13,6 +13,24 @@ function shuffle(array) {
 let arr = Categories;
 shuffle(arr);
 
+
+
+function ensureDifferentCategories(shuffledarr){
+  var i;
+  for (i = 0; i < shuffledarr.length - 2; i++) { 
+    if (shuffledarr[i].category === shuffledarr[i+1].category) {
+      shuffledarr.splice(i,1)
+    }
+
+    if (shuffledarr[i].category === shuffledarr[i+2].category) {
+      shuffledarr.splice(i,1)
+    }
+  }
+}
+ensureDifferentCategories(arr);
+
+
+
 class App extends React.Component {
   constructor(props) {
     super(props);
