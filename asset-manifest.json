@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sp-pma-trivia/static/css/main.7df48454.chunk.css",
-    "main.js": "/sp-pma-trivia/static/js/main.0dc4c5fe.chunk.js",
-    "main.js.map": "/sp-pma-trivia/static/js/main.0dc4c5fe.chunk.js.map",
+    "main.js": "/sp-pma-trivia/static/js/main.2f149a62.chunk.js",
+    "main.js.map": "/sp-pma-trivia/static/js/main.2f149a62.chunk.js.map",
     "runtime~main.js": "/sp-pma-trivia/static/js/runtime~main.7eb5251a.js",
     "runtime~main.js.map": "/sp-pma-trivia/static/js/runtime~main.7eb5251a.js.map",
     "static/css/2.266e55a5.chunk.css": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css",
     "static/js/2.719e9f5c.chunk.js": "/sp-pma-trivia/static/js/2.719e9f5c.chunk.js",
     "static/js/2.719e9f5c.chunk.js.map": "/sp-pma-trivia/static/js/2.719e9f5c.chunk.js.map",
     "index.html": "/sp-pma-trivia/index.html",
-    "precache-manifest.4ada053f64ec20884f8bc2c86b7a47ae.js": "/sp-pma-trivia/precache-manifest.4ada053f64ec20884f8bc2c86b7a47ae.js",
+    "precache-manifest.a8f68a60a6f840429c71331d1cb29d16.js": "/sp-pma-trivia/precache-manifest.a8f68a60a6f840429c71331d1cb29d16.js",
     "service-worker.js": "/sp-pma-trivia/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.7df48454.chunk.css.map": "/sp-pma-trivia/static/css/main.7df48454.chunk.css.map",
