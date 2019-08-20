@@ -119,7 +119,7 @@ class App extends React.Component {
         <Container className="containers" fluid={true}>
           <Row className="row justify-content-between h-100">
             <Col xs="6" sm="4" lg="2">
-              <Player2Card category="Player 1" score={this.state.player1score} color="primary" />
+              <Player2Card category="Team 1" score={this.state.player1score} color="primary" />
             </Col>
             <Col lg="8">
               <CardDeck className="space">
@@ -144,7 +144,7 @@ class App extends React.Component {
               </CardDeck>
             </Col>
             <Col xs="6" sm="4" lg="2" className="d-flex flex-column">
-              <Player2Card category="Player 2" score={this.state.player2score} color="danger" />
+              <Player2Card category="Team 2" score={this.state.player2score} color="danger" />
               <Col className="d-flex justify-content-end align-items-end">
                 <Button onClick={this.newGame} >New Game</Button>
               </Col>
