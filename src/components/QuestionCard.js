@@ -97,7 +97,7 @@ class QuestionCard extends React.Component {
         if (this.state.status === "start") {
             // console.log(this.props)
             return (
-                <Card className="text-center tall" >
+                <Card className="text-center tall dropshadow" >
                     <CardBody>
                         <CardText className="start">{this.props.pointValue}</CardText>
                     </CardBody>
