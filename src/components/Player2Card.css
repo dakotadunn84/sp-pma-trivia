@@ -7,7 +7,6 @@
 .title {
   font-size: 32px;
   margin-bottom: 0px;
-  margin-top: -10px;
 }
 
 .noSidePadding {
@@ -18,7 +17,6 @@
 .score-adjust-buttons {
   margin-top: -40px;
   width: 90%;
-  margin-right: 0px;
 }
 
 .score-adjust-button {

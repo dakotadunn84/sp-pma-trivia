@@ -16,7 +16,7 @@ class Player2Card extends React.Component {
   renderContent() {
     return (
       <Card
-        className="text-center tall noSidePadding  dropshadow"
+        className="text-center noSidePadding  dropshadow"
         inverse
         color={this.props.color}
       >
