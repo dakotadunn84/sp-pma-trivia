@@ -1,16 +1,26 @@
 .bigtext {
-    font-size: 100px;
-    margin-top: -30px;
-    font-weight: bold;
+  font-size: 100px;
+  margin-top: -30px;
+  font-weight: bold;
 }
 
 .title {
-    font-size: 32px;
-    margin-bottom: 0px;
-    margin-top: -10px;
+  font-size: 32px;
+  margin-bottom: 0px;
+  margin-top: -10px;
 }
 
-.noSidePadding{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.noSidePadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.score-adjust-buttons {
+  margin-top: -40px;
+  width: 90%;
+  margin-right: 0px;
+}
+
+.score-adjust-button {
+  font-weight: bold !important;
 }
