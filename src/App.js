@@ -136,7 +136,7 @@ class App extends React.Component {
           <Row className="row justify-content-between h-100">
             <Col xs="6" sm="4" lg="2">
               <Player2Card
-                category="Team 1"
+                category="Team Blue"
                 score={this.state.player1score}
                 color="primary"
                 playerscorepositiveadjust={this.onP1ScorePositiveAdjust}
@@ -371,7 +371,7 @@ class App extends React.Component {
             </Col>
             <Col xs="6" sm="4" lg="2" className="d-flex flex-column">
               <Player2Card
-                category="Team 2"
+                category="Team Red"
                 score={this.state.player2score}
                 color="danger"
                 playerscorepositiveadjust={this.onP2ScorePositiveAdjust}

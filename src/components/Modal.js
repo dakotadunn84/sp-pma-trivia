@@ -63,9 +63,9 @@ class Modalmine extends React.Component {
                             <ModalBody>{this.props.answer}<br />{this.props.funfact}</ModalBody>
                             <ModalFooter className="justify-content-center">
                                 <Row className="justify-content-between footers">
-                                    <Button color="primary" onClick={this.props.questioncardP1ScoreUpdate}>Team 1</Button>
+                                    <Button color="primary" onClick={this.props.questioncardP1ScoreUpdate}>Team Blue</Button>
                                     <Button color="secondary" onClick={this.props.onNobodyClick}>No Winner</Button>
-                                    <Button color="danger" onClick={this.props.questioncardP2ScoreUpdate}>Team 2</Button>
+                                    <Button color="danger" onClick={this.props.questioncardP2ScoreUpdate}>Team Red</Button>
                                 </Row>
                             </ModalFooter>
                         </Modal>
