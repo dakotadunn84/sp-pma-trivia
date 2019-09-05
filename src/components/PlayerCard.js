@@ -4,13 +4,11 @@ import {
   CardBody,
   CardText,
   Button,
-  Row,
-  Col,
   Container
 } from "reactstrap";
-import "./Player2Card.css";
+import "./PlayerCard.css";
 
-class Player2Card extends React.Component {
+class PlayerCard extends React.Component {
   state = { status: "" };
 
   renderContent() {
@@ -44,4 +42,4 @@ class Player2Card extends React.Component {
   }
 }
 
-export default Player2Card;
+export default PlayerCard;

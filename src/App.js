@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import QuestionCard from "./components/QuestionCard";
 import CategoryCard from "./components/CategoryCard";
-import Player2Card from "./components/Player2Card";
+import PlayerCard from "./components/PlayerCard";
 import { Container, CardDeck, Col, Row, Button } from "reactstrap";
 import Categories from "./Categories";
 
@@ -135,7 +135,7 @@ class App extends React.Component {
         <Container className="containers" fluid={true}>
           <Row className="row justify-content-between h-100">
             <Col xs="6" sm="4" lg="2">
-              <Player2Card
+              <PlayerCard
                 category="Team Blue"
                 score={this.state.player1score}
                 color="primary"
@@ -370,7 +370,7 @@ class App extends React.Component {
               </CardDeck>
             </Col>
             <Col xs="6" sm="4" lg="2" className="d-flex flex-column">
-              <Player2Card
+              <PlayerCard
                 category="Team Red"
                 score={this.state.player2score}
                 color="danger"
