@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5ec24c6a93633c48101612cb185a842",
+    "revision": "d7278c7f4e97a23742db3d408f154ed6",
     "url": "/sp-pma-trivia/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "3d627f4cbe547f824dd9",
-    "url": "/sp-pma-trivia/static/css/main.3e6ede52.chunk.css"
+    "revision": "df2ceb1074bcfce86f96",
+    "url": "/sp-pma-trivia/static/css/main.aaee797e.chunk.css"
   },
   {
     "revision": "89ad950f87dc0b58e611",
     "url": "/sp-pma-trivia/static/js/2.719e9f5c.chunk.js"
   },
   {
-    "revision": "3d627f4cbe547f824dd9",
-    "url": "/sp-pma-trivia/static/js/main.7032f913.chunk.js"
+    "revision": "df2ceb1074bcfce86f96",
+    "url": "/sp-pma-trivia/static/js/main.84155c74.chunk.js"
   },
   {
     "revision": "0928fa4584b18dc08625",
