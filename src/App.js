@@ -378,7 +378,7 @@ class App extends React.Component {
                 playerscorenegativeadjust={this.onP2ScoreNegativeAdjust}
               />
               <Col className="d-flex justify-content-end align-items-end">
-                <Button className="dropshadow" onClick={this.newGame}>
+                <Button className="dropshadow zIndex" onClick={this.newGame}>
                   New Game
                 </Button>
               </Col>
