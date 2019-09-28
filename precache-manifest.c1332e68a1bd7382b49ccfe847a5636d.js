@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7278c7f4e97a23742db3d408f154ed6",
+    "revision": "37c25ff0bdb4b88196d94c5a8f292250",
     "url": "/sp-pma-trivia/index.html"
   },
   {
-    "revision": "89ad950f87dc0b58e611",
+    "revision": "478e0f963b7d534175c8",
     "url": "/sp-pma-trivia/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "df2ceb1074bcfce86f96",
+    "revision": "2eb4cf7775684012f37c",
     "url": "/sp-pma-trivia/static/css/main.aaee797e.chunk.css"
   },
   {
-    "revision": "89ad950f87dc0b58e611",
-    "url": "/sp-pma-trivia/static/js/2.719e9f5c.chunk.js"
+    "revision": "478e0f963b7d534175c8",
+    "url": "/sp-pma-trivia/static/js/2.0cf5f583.chunk.js"
   },
   {
-    "revision": "df2ceb1074bcfce86f96",
-    "url": "/sp-pma-trivia/static/js/main.84155c74.chunk.js"
+    "revision": "2eb4cf7775684012f37c",
+    "url": "/sp-pma-trivia/static/js/main.54692d69.chunk.js"
   },
   {
     "revision": "0928fa4584b18dc08625",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7eba77c35022404f522d2b9c55693d3",
     "url": "/sp-pma-trivia/static/media/Africa.d7eba77c.png"
+  },
+  {
+    "revision": "6a739b5699106bc80fdb9bebdce7a7cd",
+    "url": "/sp-pma-trivia/static/media/Anaheim.6a739b56.png"
   },
   {
     "revision": "b8ed3d26fccdf97c7f4c92b10bccf7b3",
@@ -136,8 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sp-pma-trivia/static/media/Root Vegetables.4a57cd4a.png"
   },
   {
+    "revision": "34d69a4b6c9916c9d86838dd634d3f4f",
+    "url": "/sp-pma-trivia/static/media/SP The App.34d69a4b.png"
+  },
+  {
     "revision": "0a2b0f929c71d5ae150675cb14aa3f83",
     "url": "/sp-pma-trivia/static/media/Specialty Fruit.0a2b0f92.png"
+  },
+  {
+    "revision": "40eff4fee2334bc26173c7e3f1472312",
+    "url": "/sp-pma-trivia/static/media/Specialty Produce.40eff4fe.png"
   },
   {
     "revision": "34106353150092bd64380499f6e7c9f6",
