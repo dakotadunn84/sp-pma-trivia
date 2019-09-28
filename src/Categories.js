@@ -1,32 +1,32 @@
 module.exports = [
   {
     "category": "Lettuce",
-    "CategoryIndex": "1",
+    "CategoryIndex": 1,
     "questions": [
       {
-        "Question ID": "1003",
+        "Question ID": 1003,
         "category": "Lettuce",
-        "CategoryIndex": "1",
-        "question": "Who is the largest producer of lettuce in the world ?",
+        "CategoryIndex": 1,
+        "question": "What country is the largest producer of lettuce in the world?",
         "answer": "China",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1001",
+        "Question ID": 1001,
         "category": "Lettuce",
-        "CategoryIndex": "1",
+        "CategoryIndex": 1,
         "question": "What lettuce is named for its ice white color and crunchy texture?",
         "answer": "Iceberg lettuce",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1000",
+        "Question ID": 1000,
         "category": "Lettuce",
-        "CategoryIndex": "1",
-        "question": "What food chain banned  Iceberg lettuce from their menu?",
-        "answer": "Chick Fil-A",
+        "CategoryIndex": 1,
+        "question": "What food chain banned Iceberg lettuce from their menu?",
+        "answer": "Chick-fil-A",
         "funFact": "",
         "pointvalue": 300
       }
@@ -34,64 +34,64 @@ module.exports = [
   },
   {
     "category": "Pumpkins",
-    "CategoryIndex": "2",
+    "CategoryIndex": 2,
     "questions": [
       {
-        "Question ID": "1005",
+        "Question ID": 1005,
         "category": "Pumpkins",
-        "CategoryIndex": "2",
-        "question": "Are Pumpkins a fruit or vegetable?",
+        "CategoryIndex": 2,
+        "question": "Are pumpkins classified as a fruit or vegetable?",
         "answer": "Fruit",
-        "funFact": "If it has seeds botanically you have a fruit",
+        "funFact": "Fruits are defined as edible, seed-bearing structures on flowering plants",
         "pointvalue": 100
       },
       {
-        "Question ID": "1006",
+        "Question ID": 1006,
         "category": "Pumpkins",
-        "CategoryIndex": "2",
-        "question": "True or False: The Knucklehead pumpkin a real variety of pumpkin?",
+        "CategoryIndex": 2,
+        "question": "True or False: Knucklehead pumpkins are a real variety of pumpkin.",
         "answer": "TRUE",
-        "funFact": "True, created in 2008 in Holland Michigan by Siegers Seeds.",
+        "funFact": "True, the variety was created in 2008 in Holland, Michigan by Siegers Seeds.",
         "pointvalue": 200
       },
       {
-        "Question ID": "1004",
+        "Question ID": 1004,
         "category": "Pumpkins",
-        "CategoryIndex": "2",
-        "question": "What country did the name Jack-O-Lanterns originate from?",
+        "CategoryIndex": 2,
+        "question": "From what country did the name jack-o-lantern originate?",
         "answer": "Ireland",
-        "funFact": "Originated in Ireland, a  folk tale  about a man named Stingy Jack",
+        "funFact": "In Ireland, the term jack-o-lantern evolved from a folk tale about a man named Stingy Jack",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Japan",
-    "CategoryIndex": "3",
+    "CategoryIndex": 3,
     "questions": [
       {
-        "Question ID": "1009",
+        "Question ID": 1009,
         "category": "Japan",
-        "CategoryIndex": "3",
-        "question": "True or False: White strawberries are available year round",
+        "CategoryIndex": 3,
+        "question": "True or False: White strawberries are available year round.",
         "answer": "FALSE",
-        "funFact": "White Strawberries are available in the spring and summer. Most white strawberries exhibit a similar flavor composition to the red varieties with unique notes of pineapple, green leaves, caramel and grapes",
+        "funFact": "White strawberries are available in the spring and summer. Most white strawberries exhibit a similar flavor to red varieties with unique notes of pineapple, green leaves, caramel, and grapes",
         "pointvalue": 100
       },
       {
-        "Question ID": "1008",
+        "Question ID": 1008,
         "category": "Japan",
-        "CategoryIndex": "3",
-        "question": "True or False: Ume plums are actually an apricot but always referred to as a plum",
+        "CategoryIndex": 3,
+        "question": "True or False: Ume plums are classified as an apricot but are referred to as a plum.",
         "answer": "TRUE",
-        "funFact": "Ume Plums are seldom harvested when fully ripe, but rather picked when still young and used to make salty pickled plums called Umeboshi or plum wine",
+        "funFact": "Ume plums are seldom harvested fully ripe and are picked when young for use in salty pickled plum recipes, often called umeboshi in Japan",
         "pointvalue": 200
       },
       {
-        "Question ID": "1010",
+        "Question ID": 1010,
         "category": "Japan",
-        "CategoryIndex": "3",
-        "question": "True or False: Fuji apples are the cross of Red Delicious and Virginia Ralls Janet apples first developed in Japan",
+        "CategoryIndex": 3,
+        "question": "True or False: Fuji apples are the cross of a Red Delicious and a Ralls Janet apple, first developed in Japan.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
@@ -100,65 +100,131 @@ module.exports = [
   },
   {
     "category": "Asia",
-    "CategoryIndex": "4",
+    "CategoryIndex": 4,
     "questions": [
       {
-        "Question ID": "1012",
+        "Question ID": 1012,
         "category": "Asia",
-        "CategoryIndex": "4",
-        "question": "True or False: Bok Choys do not form heads, rather they grow leafy blades much like celery and mustard",
+        "CategoryIndex": 4,
+        "question": "True or False: Much like celery and mustard, bok choy grows leafy blades and does not form a head.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1011",
+        "Question ID": 1011,
         "category": "Asia",
-        "CategoryIndex": "4",
-        "question": "Name the berry nick named  \"the happy berry\"",
-        "answer": "Goji Berries",
+        "CategoryIndex": 4,
+        "question": "What berry is nicknamed“the happy berry?\"",
+        "answer": "Goji berries",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1013",
+        "Question ID": 1013,
         "category": "Asia",
-        "CategoryIndex": "4",
-        "question": "What fruit is often regarded as the king of fruits in Asia",
+        "CategoryIndex": 4,
+        "question": "What fruit is regarded as the \"king of fruits\" in Asia?",
         "answer": "Durian",
-        "funFact": "Because of it’s large size, strong smell and prickly thorns. The smell of durian is so polarizing, that it is banned and considered illegal in select public places as the sent can linger for days",
+        "funFact": "Durian is banned due to its large size, strong smell, and prickly thorns. The smell of Durian is so polarizing that it is banned and considered illegal in select public places as the secnt can linger for days",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Asia",
+    "CategoryIndex": 5,
+    "questions": [
+      {
+        "Question ID": 1016,
+        "category": "Asia",
+        "CategoryIndex": 5,
+        "question": "True or False: Thai wax apples are actually a berry.",
+        "answer": "TRUE",
+        "funFact": "They only resemble an apple in color and skin texture. They are actually a berry!",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1014,
+        "category": "Asia",
+        "CategoryIndex": 5,
+        "question": "What tree fruit is considered the largest in the world?",
+        "answer": "Jackfruit",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1015,
+        "category": "Asia",
+        "CategoryIndex": 5,
+        "question": "What citrus is a hybrid of an orange, mandarin, and a ponkan?",
+        "answer": "Sumo citrus aka Dekopon",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Potatoes",
-    "CategoryIndex": "6",
+    "CategoryIndex": 6,
     "questions": [
       {
-        "Question ID": "1018",
+        "Question ID": 1018,
         "category": "Potatoes",
-        "CategoryIndex": "6",
-        "question": "What is the most nutritious part of the potato?",
-        "answer": "It's skin",
+        "CategoryIndex": 6,
+        "question": "What is the most nutritious part of a potato?",
+        "answer": "The skin",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1019",
+        "Question ID": 1019,
         "category": "Potatoes",
-        "CategoryIndex": "6",
-        "question": "True of False: Peru is home to over 3,000 different varieties of potatoes?",
+        "CategoryIndex": 6,
+        "question": "True of False: Peru is home to over 3,000 different varieties of potatoes.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1021",
+        "Question ID": 1021,
         "category": "Potatoes",
-        "CategoryIndex": "6",
+        "CategoryIndex": 6,
         "question": "What are chunos?",
-        "answer": "Freeze dried potatoes made by hand in Peru that can last for many years.",
+        "answer": "Chunos are naturally freeze dried potatoes made by foot in Peru. These preserved potatoes can last for many years!",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Potatoes",
+    "CategoryIndex": 7,
+    "questions": [
+      {
+        "Question ID": 1023,
+        "category": "Potatoes",
+        "CategoryIndex": 7,
+        "question": "What fast-food item are potatoes famous for?",
+        "answer": "French fries",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1020,
+        "category": "Potatoes",
+        "CategoryIndex": 7,
+        "question": "True or False: Potatoes are not a good source of nutrients.",
+        "answer": "FALSE",
+        "funFact": "Potatoes contain vitamin C, potassium, iron, zinc, and fiber",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1022,
+        "category": "Potatoes",
+        "CategoryIndex": 7,
+        "question": "What is the most problematic disease that affects potatoes?",
+        "answer": "Blight",
         "funFact": "",
         "pointvalue": 300
       }
@@ -166,30 +232,30 @@ module.exports = [
   },
   {
     "category": "Garlic",
-    "CategoryIndex": "8",
+    "CategoryIndex": 8,
     "questions": [
       {
-        "Question ID": "1024",
+        "Question ID": 1024,
         "category": "Garlic",
-        "CategoryIndex": "8",
+        "CategoryIndex": 8,
         "question": "What color are garlic cloves?",
-        "answer": "white",
+        "answer": "White",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1026",
+        "Question ID": 1026,
         "category": "Garlic",
-        "CategoryIndex": "8",
-        "question": "True or False: There is only one type of garlic",
+        "CategoryIndex": 8,
+        "question": "True or False: There is only one type of garlic.",
         "answer": "FALSE",
         "funFact": "There are many different varieties of garlic grown across the world",
         "pointvalue": 200
       },
       {
-        "Question ID": "1029",
+        "Question ID": 1029,
         "category": "Garlic",
-        "CategoryIndex": "8",
+        "CategoryIndex": 8,
         "question": "Where did garlic originate?",
         "answer": "Central Asia",
         "funFact": "",
@@ -198,66 +264,132 @@ module.exports = [
     ]
   },
   {
-    "category": "Citrus",
-    "CategoryIndex": "11",
+    "category": "Garlic",
+    "CategoryIndex": 9,
     "questions": [
       {
-        "Question ID": "1033",
-        "category": "Citrus",
-        "CategoryIndex": "11",
-        "question": "What nutritional value does citrus most known for?",
-        "answer": "Vitamin C",
-        "funFact": " a plant explorer with the USDA",
+        "Question ID": 1025,
+        "category": "Garlic",
+        "CategoryIndex": 9,
+        "question": "What can garlic be used for?",
+        "answer": "Anything!",
+        "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1034",
-        "category": "Citrus",
-        "CategoryIndex": "11",
-        "question": "Who discovered and brought the Meyer Lemon tree to the United States?",
-        "answer": "Frank N. Meyer",
-        "funFact": " in 1976 at Hacienda Cara Cara in Venezuela",
+        "Question ID": 1028,
+        "category": "Garlic",
+        "CategoryIndex": 9,
+        "question": "True or False: All garlic tastes the same.",
+        "answer": "FALSE",
+        "funFact": "There are many different varieties of garlic that vary in levels of acidity, spiciness, and pungency",
         "pointvalue": 200
       },
       {
-        "Question ID": "1035",
+        "Question ID": 1030,
+        "category": "Garlic",
+        "CategoryIndex": 9,
+        "question": "What are the two main types of garlic?",
+        "answer": "Hardneck and softneck garlic",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Garlic",
+    "CategoryIndex": 10,
+    "questions": [
+      {
+        "Question ID": 1027,
+        "category": "Garlic",
+        "CategoryIndex": 10,
+        "question": "True or False: Garlic should only be used for Italian food.",
+        "answer": "FALSE",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1032,
+        "category": "Garlic",
+        "CategoryIndex": 10,
+        "question": "Where is the majority of garlic grown in the United States?",
+        "answer": "California",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1031,
+        "category": "Garlic",
+        "CategoryIndex": 10,
+        "question": "What famous tomb did researchers find remnants of garlic?",
+        "answer": "Ancient Egypt in King Tut’s tomb",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Citrus",
+    "CategoryIndex": 11,
+    "questions": [
+      {
+        "Question ID": 1033,
         "category": "Citrus",
-        "CategoryIndex": "11",
+        "CategoryIndex": 11,
+        "question": "What antioxidant is citrus most known for?",
+        "answer": "Vitamin C",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1034,
+        "category": "Citrus",
+        "CategoryIndex": 11,
+        "question": "Who discovered and brought the Meyer lemon tree to the United States?",
+        "answer": "Frank Nicholas Meyer, a plant explorer who worked for the USDA",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1035,
+        "category": "Citrus",
+        "CategoryIndex": 11,
         "question": "The first Cara Cara orange was discovered growing as a natural mutation on what type of tree?",
-        "answer": "Washington Navel Orange Tree",
-        "funFact": "Tangerines originally grew in southeastern China and northeastern India three thousand years ago.",
+        "answer": "Washington Navel orange tree",
+        "funFact": "Tangerines originally grew in southeastern China and northeastern India three thousand years ago",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Tropical",
-    "CategoryIndex": "12",
+    "CategoryIndex": 12,
     "questions": [
       {
-        "Question ID": "1037",
+        "Question ID": 1037,
         "category": "Tropical",
-        "CategoryIndex": "12",
-        "question": "What are some of the tropical fruit countries?",
-        "answer": "India, Thailand and Mexico, Philippines, Thailand and China",
+        "CategoryIndex": 12,
+        "question": "What countries are tropical fruits cultivated in?",
+        "answer": "Central America, South America, Asia, Southeast Asia, Africa, Hawaii",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1038",
+        "Question ID": 1038,
         "category": "Tropical",
-        "CategoryIndex": "12",
-        "question": "True or False: Cacao beans were used as currency by the Aztecs in history.",
+        "CategoryIndex": 12,
+        "question": "True or False: Cacao beans were used as currency by the Aztecs.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1036",
+        "Question ID": 1036,
         "category": "Tropical",
-        "CategoryIndex": "12",
-        "question": "The Atemoya is a hybrid of what two other fruits?",
-        "answer": "Sugar Apple and Cherimoya.",
+        "CategoryIndex": 12,
+        "question": "The Atemoya is a hybrid of what two fruits?",
+        "answer": "Sugar apple and Cherimoya",
         "funFact": "",
         "pointvalue": 300
       }
@@ -265,65 +397,65 @@ module.exports = [
   },
   {
     "category": "Apples",
-    "CategoryIndex": "13",
+    "CategoryIndex": 13,
     "questions": [
       {
-        "Question ID": "1040",
+        "Question ID": 1040,
         "category": "Apples",
-        "CategoryIndex": "13",
-        "question": "According to the US Apple Association, which apple variety was announced in 2018 as Americas most-grown apple?",
+        "CategoryIndex": 13,
+        "question": "According to the U.S. Apple Association, which apple variety was announced in 2018 as America's most-grown apple?",
         "answer": "Gala Apple",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1039",
+        "Question ID": 1039,
         "category": "Apples",
-        "CategoryIndex": "13",
-        "question": "Where do Granny Smith Apples originate?",
+        "CategoryIndex": 13,
+        "question": "Where did Granny Smith apples originate?",
         "answer": "Australia",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1041",
+        "Question ID": 1041,
         "category": "Apples",
-        "CategoryIndex": "13",
+        "CategoryIndex": 13,
         "question": "Why do almost all modern farmers use the technique known as grafting when growing apple crops?",
-        "answer": "Apples cannot grow true to seed.",
-        "funFact": "Apples feature a characteristic known as heterozygosity,they cannot grow true to seed.",
+        "answer": "Apples cannot grow true to seed",
+        "funFact": "Apples feature a characteristic known as heterozygosity, which means they cannot grow true to seed",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Avocados",
-    "CategoryIndex": "14",
+    "CategoryIndex": 14,
     "questions": [
       {
-        "Question ID": "1042",
+        "Question ID": 1042,
         "category": "Avocados",
-        "CategoryIndex": "14",
+        "CategoryIndex": 14,
         "question": "This variety is the top commercial avocado cultivar among growers worldwide.",
         "answer": "Hass",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1044",
+        "Question ID": 1044,
         "category": "Avocados",
-        "CategoryIndex": "14",
-        "question": "which type of avocado does not have the typical large central pit found in other avocados.",
+        "CategoryIndex": 14,
+        "question": "What avocado does not have the typical large pit found in other avocados?",
         "answer": "Cocktail avocados",
-        "funFact": "Cocktail avocados are the result of an un-pollinated avocado blossom. They can develop in many cultivars, but most often occur on Fuerte and Mexicola.",
+        "funFact": "Cocktail avocados are the result of an un-pollinated avocado blossom. They can develop through many cultivars, but most often occur on Fuerte and Mexicola.",
         "pointvalue": 200
       },
       {
-        "Question ID": "1046",
+        "Question ID": 1046,
         "category": "Avocados",
-        "CategoryIndex": "14",
-        "question": "European sailors used avocados as a cheap alternative spread in the 1700s, giving them this nickname.",
-        "answer": "Midshipman’s butter or Poor Man’s butter",
+        "CategoryIndex": 14,
+        "question": "European sailors used avocados as a cheap, alternative spread in the 1700s, giving the fruit this nickname.",
+        "answer": "Midshipman’s butter or poor man’s butter",
         "funFact": "",
         "pointvalue": 300
       }
@@ -331,64 +463,97 @@ module.exports = [
   },
   {
     "category": "Dates",
-    "CategoryIndex": "15",
+    "CategoryIndex": 15,
     "questions": [
       {
-        "Question ID": "1047",
+        "Question ID": 1047,
         "category": "Dates",
-        "CategoryIndex": "15",
+        "CategoryIndex": 15,
         "question": "True or False: Dates are one of the earliest domesticated crops in the world.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1048",
+        "Question ID": 1048,
         "category": "Dates",
-        "CategoryIndex": "15",
-        "question": "What type of tress do dates grow on?",
+        "CategoryIndex": 15,
+        "question": "What type of trees do dates grow on?",
         "answer": "Palm trees",
-        "funFact": "Dates are believed to have been first cultivated in the Persian Gulf region as early as 4,000 BCE",
+        "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1051",
+        "Question ID": 1051,
         "category": "Dates",
-        "CategoryIndex": "15",
-        "question": "True or False: Date was the first food eaten by the Prophet Muhammad after breaking from his fast during Ramadan.",
+        "CategoryIndex": 15,
+        "question": "True or False: Dates were the first food consumed by the prophet Muhammad after breaking his fast during Ramadan.",
         "answer": "TRUE",
-        "funFact": "Dates still feature prominently in the feast that ends Ramadan, finding their way into classic Arabic dishes like ma’amoul, a date-filled cookie.",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Dates",
+    "CategoryIndex": 16,
+    "questions": [
+      {
+        "Question ID": 1049,
+        "category": "Dates",
+        "CategoryIndex": 16,
+        "question": "Dates are low in moisture and are naturally high in what content?",
+        "answer": "Sugar",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1050,
+        "category": "Dates",
+        "CategoryIndex": 16,
+        "question": "Name the date variety which earned a reputation as the \"king of dates\" or the \"crown jewel of dates.”",
+        "answer": "Medjool",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1052,
+        "category": "Dates",
+        "CategoryIndex": 16,
+        "question": "The Medjool date was introduced in California in the early 20th century from what north African country?",
+        "answer": "Morocco",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Grapes",
-    "CategoryIndex": "17",
+    "CategoryIndex": 17,
     "questions": [
       {
-        "Question ID": "1055",
+        "Question ID": 1055,
         "category": "Grapes",
-        "CategoryIndex": "17",
+        "CategoryIndex": 17,
         "question": "True or False: Grapes are botanically classified as stone fruits.",
         "answer": "FALSE",
         "funFact": "They are botanically classified as berries",
         "pointvalue": 100
       },
       {
-        "Question ID": "1053",
+        "Question ID": 1053,
         "category": "Grapes",
-        "CategoryIndex": "17",
+        "CategoryIndex": 17,
         "question": "What are the two general classifications for grapes, based on how the grape is used?",
         "answer": "Table grapes and wine grapes",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1057",
+        "Question ID": 1057,
         "category": "Grapes",
-        "CategoryIndex": "17",
-        "question": "Which seedless grape came first? Green or Red?",
+        "CategoryIndex": 17,
+        "question": "Which seedless grape came first? Green or red?",
         "answer": "Green",
         "funFact": "",
         "pointvalue": 300
@@ -396,65 +561,98 @@ module.exports = [
     ]
   },
   {
-    "category": "Tomatoes",
-    "CategoryIndex": "19",
+    "category": "Grapes",
+    "CategoryIndex": 18,
     "questions": [
       {
-        "Question ID": "1059",
-        "category": "Tomatoes",
-        "CategoryIndex": "19",
-        "question": "Are tomatoes botanically classified as a fruit or a vegetable?",
-        "answer": "Fruit",
-        "funFact": "In the late 1800s, the U.S. Supreme Court ruled that the tomato was legally classified a vegetable because of the way it was commonly used. Why would the court get involved? Because vegetables were subject to import taxes",
+        "Question ID": 1056,
+        "category": "Grapes",
+        "CategoryIndex": 18,
+        "question": "True or False: In many ancient cities people drank wine diluted with water as regular tapwater was not safe to consume.",
+        "answer": "TRUE",
+        "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1060",
+        "Question ID": 1054,
+        "category": "Grapes",
+        "CategoryIndex": 18,
+        "question": "What are the two main types of grapes based on the grape's native land?",
+        "answer": "North American and European",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1058,
+        "category": "Grapes",
+        "CategoryIndex": 18,
+        "question": "Eating twelve grapes at midnight on New Year's Eve is both a tradition and a superstition in what country?",
+        "answer": "Spain",
+        "funFact": "This tradition is now also practiced in Mexico and other Latin American countries. The grape variety traditionally used in Spain is called Aledo, which is a Spanish table grape with white-green skin and fleshy, sweet pulp that grows on the Mediterranean coast.",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Tomatoes",
+    "CategoryIndex": 19,
+    "questions": [
+      {
+        "Question ID": 1059,
         "category": "Tomatoes",
-        "CategoryIndex": "19",
-        "question": "This common type of tomato is known for its large size, meaty texture, and classic tomato flavor",
+        "CategoryIndex": 19,
+        "question": "Are tomatoes botanically classified as a fruit or a vegetable?",
+        "answer": "Fruit",
+        "funFact": "In the late 1800s, the U.S. Supreme Court ruled that the tomato was legally classified a vegetable because of the way it was commonly used. Why would the court get involved? Because vegetables were subject to import taxes.",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1060,
+        "category": "Tomatoes",
+        "CategoryIndex": 19,
+        "question": "This common type of tomato is known for its large size, meaty texture, and classic tomato flavor.",
         "answer": "Beefsteak tomato",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1062",
+        "Question ID": 1062,
         "category": "Tomatoes",
-        "CategoryIndex": "19",
+        "CategoryIndex": 19,
         "question": "True or False: Tomatoes are botanically considered berries.",
         "answer": "TRUE",
-        "funFact": "True berries are simple fruits stemming from one flower with one ovary and typically have several seeds.",
+        "funFact": "Berries are simple fruits stemming from a flower with one ovary and typically have several seeds.",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Cherry Tomatoes",
-    "CategoryIndex": "20",
+    "CategoryIndex": 20,
     "questions": [
       {
-        "Question ID": "1067",
+        "Question ID": 1067,
         "category": "Cherry Tomatoes",
-        "CategoryIndex": "20",
+        "CategoryIndex": 20,
         "question": "True or False: Cherry tomatoes are generally more tart than large tomatoes.",
         "answer": "FALSE",
         "funFact": "They are generally much sweeter!",
         "pointvalue": 100
       },
       {
-        "Question ID": "1068",
+        "Question ID": 1068,
         "category": "Cherry Tomatoes",
-        "CategoryIndex": "20",
-        "question": "This is a common type of cherry tomato that’s distinguished by its elongated oval shape.",
-        "answer": "Grape tomatoes",
+        "CategoryIndex": 20,
+        "question": "This is a common type of cherry tomato that’s distinguished by its elongated, oval shape.",
+        "answer": "Grape or Plum tomatoes",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1069",
+        "Question ID": 1069,
         "category": "Cherry Tomatoes",
-        "CategoryIndex": "20",
-        "question": "The smallest species of edible cherry tomatoes are called _________ tomatoes",
+        "CategoryIndex": 20,
+        "question": "The smallest species of edible cherry tomatoes are called _________ tomatoes.",
         "answer": "Currant",
         "funFact": "Currant tomatoes weigh an average of just three grams and measure just over a centimeter in diameter",
         "pointvalue": 300
@@ -463,31 +661,31 @@ module.exports = [
   },
   {
     "category": "Heirloom Tomatoes",
-    "CategoryIndex": "21",
+    "CategoryIndex": 21,
     "questions": [
       {
-        "Question ID": "1071",
+        "Question ID": 1071,
         "category": "Heirloom Tomatoes",
-        "CategoryIndex": "21",
+        "CategoryIndex": 21,
         "question": "True or False: An heirloom tomato variety is one that has been around more than fifty years and can reproduce from seed.",
-        "answer": "True",
+        "answer": "TRUE",
         "funFact": "They are also known for their unique shapes and colors",
         "pointvalue": 100
       },
       {
-        "Question ID": "1072",
+        "Question ID": 1072,
         "category": "Heirloom Tomatoes",
-        "CategoryIndex": "21",
+        "CategoryIndex": 21,
         "question": "What is the most common antioxidant found in tomatoes?",
         "answer": "Lycopene",
         "funFact": "Controversy surrounds newer varieties being marketed as heirlooms. Thanks to the growing favor of heirloom tomatoes, open-pollinated varieties with exceptional qualities, especially flavor, are being introduced into the marketplace as heirlooms without such long histories.",
         "pointvalue": 200
       },
       {
-        "Question ID": "1075",
+        "Question ID": 1075,
         "category": "Heirloom Tomatoes",
-        "CategoryIndex": "21",
-        "question": "What is the most popular home garden Heirloom Tomato variety?",
+        "CategoryIndex": 21,
+        "question": "What is the most popular home garden heirloom tomato variety?",
         "answer": "Pink Brandywine",
         "funFact": "The Pink Brandywine is credited with bringing heirloom tomatoes back into popularity after the rise of hybridization in the twentieth century. Since their reintroduction to the American market in the 1980s, there have been many Brandywine sub-strains created through selection and crossbreeding.",
         "pointvalue": 300
@@ -496,64 +694,64 @@ module.exports = [
   },
   {
     "category": "Pears",
-    "CategoryIndex": "22",
+    "CategoryIndex": 22,
     "questions": [
       {
-        "Question ID": "1080",
+        "Question ID": 1080,
         "category": "Pears",
-        "CategoryIndex": "22",
-        "question": "This family of pears is known for its round shape and crisp texture, similar it to an apple",
-        "answer": "Asian",
+        "CategoryIndex": 22,
+        "question": "This family of pears is known for its crisp texture and round shape, similar in appearance to an apple.",
+        "answer": "Asian pear",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1081",
+        "Question ID": 1081,
         "category": "Pears",
-        "CategoryIndex": "22",
+        "CategoryIndex": 22,
         "question": "What pear, popular in the United States, is known in Europe as Williams pear?",
-        "answer": "Bartlett",
+        "answer": "Bartlett pear",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1082",
+        "Question ID": 1082,
         "category": "Pears",
-        "CategoryIndex": "22",
-        "question": "Name this pear that's cross between an American giant Seckel pear and the European pear",
-        "answer": "Warren",
-        "funFact": "Believed to be a naturally occurring cross between an American giant Seckel pear and the European pear, this pear favorited by celebrities such as Oprah Winfrey and Martha Stewart, was discovered growing in front of a post office in Hattiesburg, Mississippi in 1976. It is named for the man who discovered it: Thomas Oscar ________.",
+        "CategoryIndex": 22,
+        "question": "Name the pear that is a cross between an American Giant Seckel pear and the European pear.",
+        "answer": "Warren pear",
+        "funFact": "Believed to be a naturally occurring cross between an American Giant Seckel pear and the European pear, this pear is favored by celebrities such as Oprah Winfrey and Martha Stewart.",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Cucumbers",
-    "CategoryIndex": "23",
+    "CategoryIndex": 23,
     "questions": [
       {
-        "Question ID": "1083",
+        "Question ID": 1083,
         "category": "Cucumbers",
-        "CategoryIndex": "23",
+        "CategoryIndex": 23,
         "question": "Pickling cucumbers are available in what season/s?",
-        "answer": "year round with peak season in the summer",
+        "answer": "Year-round with a peak season in the summer",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1084",
+        "Question ID": 1084,
         "category": "Cucumbers",
-        "CategoryIndex": "23",
+        "CategoryIndex": 23,
         "question": "Name the cucumber that is long with green stripes and smells like a cantaloupe.",
         "answer": "Armenian Cucumber",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1085",
+        "Question ID": 1085,
         "category": "Cucumbers",
-        "CategoryIndex": "23",
-        "question": "True or False: Chinese Yellow Cucumbers have a sweet flavor that has hints of lemon and apple.",
+        "CategoryIndex": 23,
+        "question": "True or False: Chinese Yellow cucumbers have a sweet flavor that has hints of lemon and apple.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
@@ -561,32 +759,98 @@ module.exports = [
     ]
   },
   {
-    "category": "Foraged",
-    "CategoryIndex": "26",
+    "category": "Grapes",
+    "CategoryIndex": 24,
     "questions": [
       {
-        "Question ID": "1092",
-        "category": "Foraged",
-        "CategoryIndex": "26",
-        "question": "True or False: Mistletoe is poisonous to humans, but it is an important food source for other animals.",
-        "answer": "TRUE, it is an important food source for birds, deer and porcupines.",
+        "Question ID": 1086,
+        "category": "Grapes",
+        "CategoryIndex": 24,
+        "question": "Cotton Candy® grapes are available in what season/s.",
+        "answer": "Late summer through early fall",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1093",
+        "Question ID": 1087,
+        "category": "Grapes",
+        "CategoryIndex": 24,
+        "question": "When the skin of a grape can easily be separated from the flesh without damage it is called a ________________.",
+        "answer": "Slip Skin",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1088,
+        "category": "Grapes",
+        "CategoryIndex": 24,
+        "question": "True or False: The powdery film found on grapes such as the Concord is called tenebrous.",
+        "answer": "FALSE",
+        "funFact": "It’s known as a bloom.",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Latin & Baja",
+    "CategoryIndex": 25,
+    "questions": [
+      {
+        "Question ID": 1090,
+        "category": "Latin & Baja",
+        "CategoryIndex": 25,
+        "question": "Which fruit contains more potassium: The green plantain banana or common banana?",
+        "answer": "Green Plantain Banana",
+        "funFact": "Green plantains have almost twice the potassium as the common banana.",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1091,
+        "category": "Latin & Baja",
+        "CategoryIndex": 25,
+        "question": "True or False: Tamarind is native to Mexico.",
+        "answer": "FALSE",
+        "funFact": "It is native to Africa but is cultivated throughout Mexico and Asia.",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1089,
+        "category": "Latin & Baja",
+        "CategoryIndex": 25,
+        "question": "Name one of the four festival food elements used in the Day of the Dead celebration in Mexico.",
+        "answer": "Sugar cane, tangerines, peanuts, jicama",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Foraged",
+    "CategoryIndex": 26,
+    "questions": [
+      {
+        "Question ID": 1092,
         "category": "Foraged",
-        "CategoryIndex": "26",
+        "CategoryIndex": 26,
+        "question": "True or False: Mistletoe is poisonous to humans, but it is an important food source for other animals.",
+        "answer": "TRUE",
+        "funFact": "Mistletoe is an important food source for birds, deer, and porcupines.",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1093,
+        "category": "Foraged",
+        "CategoryIndex": 26,
         "question": "What fruit is produced from the flower of a catcus pad?",
         "answer": "Prickly Pear",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1094",
+        "Question ID": 1094,
         "category": "Foraged",
-        "CategoryIndex": "26",
-        "question": "Before hops what other ingredient did colonials use to make beer?",
+        "CategoryIndex": 26,
+        "question": "Before hops, what other ingredient did colonials use to make beer?",
         "answer": "Spruce tips",
         "funFact": "",
         "pointvalue": 300
@@ -595,31 +859,31 @@ module.exports = [
   },
   {
     "category": "Herbs",
-    "CategoryIndex": "27",
+    "CategoryIndex": 27,
     "questions": [
       {
-        "Question ID": "1095",
+        "Question ID": 1095,
         "category": "Herbs",
-        "CategoryIndex": "27",
+        "CategoryIndex": 27,
         "question": "What herb is most commonly used for pesto?",
         "answer": "Basil",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1096",
+        "Question ID": 1096,
         "category": "Herbs",
-        "CategoryIndex": "27",
-        "question": "What is another name of Chinese parsley?",
+        "CategoryIndex": 27,
+        "question": "What is another name for Chinese parsley?",
         "answer": "Cilantro",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1097",
+        "Question ID": 1097,
         "category": "Herbs",
-        "CategoryIndex": "27",
-        "question": "What herb was used by Native Americans for ceremonies?",
+        "CategoryIndex": 27,
+        "question": "What herb was used by Native Americans in traditional ceremonies?",
         "answer": "White Sage",
         "funFact": "",
         "pointvalue": 300
@@ -628,31 +892,31 @@ module.exports = [
   },
   {
     "category": "Specialty Fruit",
-    "CategoryIndex": "28",
+    "CategoryIndex": 28,
     "questions": [
       {
-        "Question ID": "1098",
+        "Question ID": 1098,
         "category": "Specialty Fruit",
-        "CategoryIndex": "28",
-        "question": "What berries alters the sweet receptors on the tongue and changes sour flavors to sweet flavors?",
-        "answer": "Miracle berries/magic berries",
+        "CategoryIndex": 28,
+        "question": "What berry alters the sweet receptors on the tongue and changes sour flavors to sweet flavors?",
+        "answer": "Miracle berry or Magic berry",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1099",
+        "Question ID": 1099,
         "category": "Specialty Fruit",
-        "CategoryIndex": "28",
-        "question": "How many colors does a dragon fruit flesh have?",
+        "CategoryIndex": 28,
+        "question": "How many flesh colors does a dragon fruit have?",
         "answer": "Two: Red and white",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1100",
+        "Question ID": 1100,
         "category": "Specialty Fruit",
-        "CategoryIndex": "28",
-        "question": "Granadilla fruit is another name for ________",
+        "CategoryIndex": 28,
+        "question": "Granadilla is another name for what fruit?",
         "answer": "Passionfruit",
         "funFact": "",
         "pointvalue": 300
@@ -661,32 +925,32 @@ module.exports = [
   },
   {
     "category": "Melons",
-    "CategoryIndex": "29",
+    "CategoryIndex": 29,
     "questions": [
       {
-        "Question ID": "1101",
+        "Question ID": 1101,
         "category": "Melons",
-        "CategoryIndex": "29",
-        "question": "True or false: Watermelons have a uniform pulp inside unlike other melons which are hollow in the center",
+        "CategoryIndex": 29,
+        "question": "True or False: Watermelons contain more than 80% water.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1103",
+        "Question ID": 1103,
         "category": "Melons",
-        "CategoryIndex": "29",
-        "question": "What country was the name cantalope derived from ?",
-        "answer": "France",
+        "CategoryIndex": 29,
+        "question": "True or False: Watermelons have solid pulp unlike other melons which are hollow in the center.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1102",
+        "Question ID": 1102,
         "category": "Melons",
-        "CategoryIndex": "29",
-        "question": "In South Africa, catalope fruit is known as ?",
-        "answer": "Spanspek",
+        "CategoryIndex": 29,
+        "question": "What country was the name cantaloupe derived from?",
+        "answer": "France",
         "funFact": "",
         "pointvalue": 300
       }
@@ -694,31 +958,31 @@ module.exports = [
   },
   {
     "category": "Root Vegetables",
-    "CategoryIndex": "30",
+    "CategoryIndex": 30,
     "questions": [
       {
-        "Question ID": "1106",
+        "Question ID": 1106,
         "category": "Root Vegetables",
-        "CategoryIndex": "30",
+        "CategoryIndex": 30,
         "question": "Are carrots or potatoes considered the most popular root vegetable?",
-        "answer": "carrots",
-        "funFact": "potatoes are tubers not root vegetables",
+        "answer": "Carrots",
+        "funFact": "Potatoes are classified as tubers not root vegetables.",
         "pointvalue": 100
       },
       {
-        "Question ID": "1105",
+        "Question ID": 1105,
         "category": "Root Vegetables",
-        "CategoryIndex": "30",
-        "question": "True or flase: Yucca root can be used the same way as a potatoe ?",
-        "answer": "True",
+        "CategoryIndex": 30,
+        "question": "True or False: Yucca root can be cooked similarly to a potato.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1104",
+        "Question ID": 1104,
         "category": "Root Vegetables",
-        "CategoryIndex": "30",
-        "question": "What \"power house\" root contains natural antibiotics , anti-inflammatory, and antidetoxifications ?",
+        "CategoryIndex": 30,
+        "question": "What \"powerhouse\" root contains natural antibiotic, anti-inflammatory, and antioxidant properties?",
         "answer": "Ginger",
         "funFact": "",
         "pointvalue": 300
@@ -727,32 +991,32 @@ module.exports = [
   },
   {
     "category": "Asparagus",
-    "CategoryIndex": "31",
+    "CategoryIndex": 31,
     "questions": [
       {
-        "Question ID": "1109",
+        "Question ID": 1109,
         "category": "Asparagus",
-        "CategoryIndex": "31",
-        "question": "True or False: Asparagus appears in markets year-round with the peak of the crops season being spring",
+        "CategoryIndex": 31,
+        "question": "True or False: Asparagus appears in markets year-round, with a peak season in the spring.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1108",
+        "Question ID": 1108,
         "category": "Asparagus",
-        "CategoryIndex": "31",
-        "question": "What variety of asparagus is grown under soil or cover to block out the sun’s rays preventing photosynthesis and chlorophyll development",
+        "CategoryIndex": 31,
+        "question": "What variety of asparagus is covered to block out the sun’s rays to prevent photosynthesis and chlorophyll development?",
         "answer": "White Asparagus",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1107",
+        "Question ID": 1107,
         "category": "Asparagus",
-        "CategoryIndex": "31",
+        "CategoryIndex": 31,
         "question": "How many years does it take for the asparagus plant to yield its first crop?",
-        "answer": "2-3 YEARS",
+        "answer": "2-3 Years",
         "funFact": "",
         "pointvalue": 300
       }
@@ -760,32 +1024,32 @@ module.exports = [
   },
   {
     "category": "Onions",
-    "CategoryIndex": "32",
+    "CategoryIndex": 32,
     "questions": [
       {
-        "Question ID": "1112",
+        "Question ID": 1112,
         "category": "Onions",
-        "CategoryIndex": "32",
-        "question": "This Variety of onion is one of the most widely used ingredients in Chinese cooking and the principal onion used in Japanese Cuisine",
+        "CategoryIndex": 32,
+        "question": "This variety of onion is one of the most widely used ingredients in Chinese cooking and the principal onion used in Japanese cuisine.",
         "answer": "Green Onions",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1110",
+        "Question ID": 1110,
         "category": "Onions",
-        "CategoryIndex": "32",
-        "question": "True or False: Yellow Onions account for over 80% of the United States onion crop",
+        "CategoryIndex": 32,
+        "question": "True or False: Yellow onions account for over 80% of the United States onion crop.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1111",
+        "Question ID": 1111,
         "category": "Onions",
-        "CategoryIndex": "32",
+        "CategoryIndex": 32,
         "question": "How did the Texas 1015 onion get its name?",
-        "answer": "its suggested planting date of October 15th and home growing state of Texas",
+        "answer": "Its suggested planting date is October 15th and its home state is Texas",
         "funFact": "",
         "pointvalue": 300
       }
@@ -793,32 +1057,32 @@ module.exports = [
   },
   {
     "category": "Peppers",
-    "CategoryIndex": "33",
+    "CategoryIndex": 33,
     "questions": [
       {
-        "Question ID": "1113",
+        "Question ID": 1113,
         "category": "Peppers",
-        "CategoryIndex": "33",
+        "CategoryIndex": 33,
         "question": "What color peppers are usually on the bitter side?",
         "answer": "Green",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1115",
+        "Question ID": 1115,
         "category": "Peppers",
-        "CategoryIndex": "33",
+        "CategoryIndex": 33,
         "question": "Name one of the hottest peppers in the world with 1,000,000 or more Scoville units.",
-        "answer": "Ghost pepper, Scorpion pepper, or Carolina Reaper.",
+        "answer": "Ghost pepper, Scorpion pepper, or Carolina Reaper",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1114",
+        "Question ID": 1114,
         "category": "Peppers",
-        "CategoryIndex": "33",
-        "question": "True or False: The red jalepeno is a completely different seed variety from its green namesake?",
-        "answer": "False",
+        "CategoryIndex": 33,
+        "question": "True or False: The red jalapeno is a completely different variety from the green jalapeno.",
+        "answer": "FALSE",
         "funFact": "",
         "pointvalue": 300
       }
@@ -826,32 +1090,32 @@ module.exports = [
   },
   {
     "category": "Summer Squash",
-    "CategoryIndex": "34",
+    "CategoryIndex": 34,
     "questions": [
       {
-        "Question ID": "1116",
+        "Question ID": 1116,
         "category": "Summer Squash",
-        "CategoryIndex": "34",
-        "question": "True or False: In North America, summer squash is only available during the winter months?",
-        "answer": "False",
+        "CategoryIndex": 34,
+        "question": "True or False: In North America, summer squash is only available during the winter months.",
+        "answer": "FALSE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1117",
+        "Question ID": 1117,
         "category": "Summer Squash",
-        "CategoryIndex": "34",
-        "question": "The male flower attached to the squash are known as?",
+        "CategoryIndex": 34,
+        "question": "The male flower attached to squash is known as?",
         "answer": "Macho blossom",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1118",
+        "Question ID": 1118,
         "category": "Summer Squash",
-        "CategoryIndex": "34",
-        "question": "The round squash variety released in the 1990’s by Hollar Seeds is called the ____________ squash.",
-        "answer": "Eight ball squash",
+        "CategoryIndex": 34,
+        "question": "The round squash variety released in the 1990’s by Hollar Seeds is known as the ____________ squash.",
+        "answer": "Eight Ball squash",
         "funFact": "",
         "pointvalue": 300
       }
@@ -859,32 +1123,32 @@ module.exports = [
   },
   {
     "category": "Edible Flowers",
-    "CategoryIndex": "35",
+    "CategoryIndex": 35,
     "questions": [
       {
-        "Question ID": "1119",
+        "Question ID": 1119,
         "category": "Edible Flowers",
-        "CategoryIndex": "35",
-        "question": "\nTrue or False- Edible flowers can add texture, color, and flavor to culinary dishes.",
-        "answer": "True",
+        "CategoryIndex": 35,
+        "question": "True or False- Edible flowers can add texture, color, and flavor to culinary dishes.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1120",
+        "Question ID": 1120,
         "category": "Edible Flowers",
-        "CategoryIndex": "35",
+        "CategoryIndex": 35,
         "question": "What are chamomile flowers most commonly used in?",
         "answer": "Tea",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1121",
+        "Question ID": 1121,
         "category": "Edible Flowers",
-        "CategoryIndex": "35",
+        "CategoryIndex": 35,
         "question": "What culinary dishes can edible flowers be added to?",
-        "answer": "Anything! ",
+        "answer": "Anything!",
         "funFact": "Salads, grain bowls, smoothie bowls, vegetables etc.",
         "pointvalue": 300
       }
@@ -892,30 +1156,30 @@ module.exports = [
   },
   {
     "category": "Leaves",
-    "CategoryIndex": "36",
+    "CategoryIndex": 36,
     "questions": [
       {
-        "Question ID": "1124",
+        "Question ID": 1124,
         "category": "Leaves",
-        "CategoryIndex": "36",
+        "CategoryIndex": 36,
         "question": "True or False- Leaves have been used in medicinal and culinary applications since ancient times.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1127",
+        "Question ID": 1127,
         "category": "Leaves",
-        "CategoryIndex": "36",
-        "question": "\nTrue or False- Pea tendrils have the same grassy, vegetal flavor as a fresh pea.",
-        "answer": "True",
+        "CategoryIndex": 36,
+        "question": "True or False- Pea tendrils have the same grassy, vegetal flavor as a fresh pea.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1125",
+        "Question ID": 1125,
         "category": "Leaves",
-        "CategoryIndex": "36",
+        "CategoryIndex": 36,
         "question": "What makes leaves appear green?",
         "answer": "Chlorophyll",
         "funFact": "",
@@ -924,32 +1188,65 @@ module.exports = [
     ]
   },
   {
-    "category": "Micro Greens",
-    "CategoryIndex": "38",
+    "category": "Leaves",
+    "CategoryIndex": 37,
     "questions": [
       {
-        "Question ID": "1130",
+        "Question ID": 1128,
+        "category": "Leaves",
+        "CategoryIndex": 37,
+        "question": "What dried leaves are popularly used in soups to add flavor?",
+        "answer": "Bay Leaves",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1129,
+        "category": "Leaves",
+        "CategoryIndex": 37,
+        "question": "What are Eucalyptus leaves most commonly used for?",
+        "answer": "Aromatherapy, essential oils",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1126,
+        "category": "Leaves",
+        "CategoryIndex": 37,
+        "question": "What tree has been nicknamed the miracle tree due to its high nutritional content?",
+        "answer": "Moringa tree",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Micro Greens",
+    "CategoryIndex": 38,
+    "questions": [
+      {
+        "Question ID": 1130,
         "category": "Micro Greens",
-        "CategoryIndex": "38",
+        "CategoryIndex": 38,
         "question": "What season/s are Micro Chives available?",
         "answer": "Year-round",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1132",
+        "Question ID": 1132,
         "category": "Micro Greens",
-        "CategoryIndex": "38",
-        "question": "Does Micro Popcorn Shoots taste like buttery popcorn?",
-        "answer": "No",
-        "funFact": "It consists of micro fennel and micro anise to bring a strong licorice flavor.",
+        "CategoryIndex": 38,
+        "question": "Do Popcorn Shoots taste like buttery popcorn?",
+        "answer": "Popcorn shoots are tender and crisp with a very sweet, mild corn flavor and grassy, tart undertones",
+        "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1131",
+        "Question ID": 1131,
         "category": "Micro Greens",
-        "CategoryIndex": "38",
-        "question": "Micro Hearts on Fire ™ Works well on frozen confections like ice cream or sorbets.",
+        "CategoryIndex": 38,
+        "question": "True or False: Micro Hearts on Fire ™ works well on frozen confections like ice cream or sorbets.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
@@ -958,63 +1255,63 @@ module.exports = [
   },
   {
     "category": "Spices",
-    "CategoryIndex": "39",
+    "CategoryIndex": 39,
     "questions": [
       {
-        "Question ID": "1138",
+        "Question ID": 1138,
         "category": "Spices",
-        "CategoryIndex": "39",
+        "CategoryIndex": 39,
         "question": "Why is Saffron so expensive?",
         "answer": "It has to harvested by hand",
-        "funFact": "the vibrant red thread has to harvested by hand. Saffron come from the stigma of the crocus sativus flower, each flower contains only 3-5 stigma, it takes 100 flowers to produce only one gram of saffron.",
+        "funFact": "Saffron come from the stigma of the crocus sativus flower and each flower contains only 3-5 stigma. It takes one hundred flowers to produce only one gram of saffron.",
         "pointvalue": 100
       },
       {
-        "Question ID": "1141",
+        "Question ID": 1141,
         "category": "Spices",
-        "CategoryIndex": "39",
-        "question": "What is the difference between Herbs and Spice",
-        "answer": "Herbs derive from the leaf of a plant and Pices are sourced from,bark-buds-roots-seeds.",
+        "CategoryIndex": 39,
+        "question": "What is the difference between herbs and spices?",
+        "answer": "Herbs are derived from the leaf of a plant and spices are sourced from bark, buds, roots, or seeds.",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1140",
+        "Question ID": 1140,
         "category": "Spices",
-        "CategoryIndex": "39",
-        "question": "Name one of the ingredients from Chinese 5 spice.",
-        "answer": "Star anise, cloves, Chinese cinnamon, Sichuan pepper, Fennel seeds. (ginger root, nutmeg, turmeric, orange peel)",
-        "funFact": "Named not after the number of ingredients but after the five flavors.  Sour- bitter – salty- sweet- pungent.",
+        "CategoryIndex": 39,
+        "question": "Name one ingredient in Chinese five spice.",
+        "answer": "Star Anise, Cloves, Chinese Cinnamon, Sichuan Pepper, Fennel Seeds (Ginger Root, Nutmeg, Turmeric, Orange peel)",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
   },
   {
     "category": "Africa",
-    "CategoryIndex": "40",
+    "CategoryIndex": 40,
     "questions": [
       {
-        "Question ID": "1142",
+        "Question ID": 1142,
         "category": "Africa",
-        "CategoryIndex": "40",
-        "question": "Fruits of the Brandy Bush are high in sugar content and can be fermented to make what beverages?",
-        "answer": "beer, wine, and a brandy known as mampoer",
+        "CategoryIndex": 40,
+        "question": "Fruits of the Brandy bush are high in sugar and can be fermented to make what beverages?",
+        "answer": "Beer, wine, and a brandy known as mampoer",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1143",
+        "Question ID": 1143,
         "category": "Africa",
-        "CategoryIndex": "40",
-        "question": "Name 1 nutritional value of an Ewe okra",
-        "answer": "Vitamins A, B, and C, fiber, calcium, potassium and iron",
+        "CategoryIndex": 40,
+        "question": "Name one nutritional property of the Ewe okra.",
+        "answer": "Vitamins A, B, and C, fiber, calcium, potassium, or iron",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1144",
+        "Question ID": 1144,
         "category": "Africa",
-        "CategoryIndex": "40",
+        "CategoryIndex": 40,
         "question": "Do yellow melons grow on trees or sprawling vines?",
         "answer": "Sprawling vines",
         "funFact": "",
@@ -1024,32 +1321,98 @@ module.exports = [
   },
   {
     "category": "Dried Fruit",
-    "CategoryIndex": "41",
+    "CategoryIndex": 41,
     "questions": [
       {
-        "Question ID": "1145",
+        "Question ID": 1145,
         "category": "Dried Fruit",
-        "CategoryIndex": "41",
-        "question": "Does a cup of dried mango contain more calories or fresh mango?",
-        "answer": "dried mango",
+        "CategoryIndex": 41,
+        "question": "What contains more calories: One cup of dried mango or one cup of fresh mango?",
+        "answer": "Dried mango",
         "funFact": "",
         "pointvalue": 100
       },
       {
-        "Question ID": "1146",
+        "Question ID": 1146,
         "category": "Dried Fruit",
-        "CategoryIndex": "41",
+        "CategoryIndex": 41,
         "question": "A prune is the dried form of what fruit?",
         "answer": "Plum",
         "funFact": "",
         "pointvalue": 200
       },
       {
-        "Question ID": "1147",
+        "Question ID": 1147,
         "category": "Dried Fruit",
-        "CategoryIndex": "41",
-        "question": "The meat of this tropical fruit can be found in multiple dried forms, such as shredded, flakes, or chips",
+        "CategoryIndex": 41,
+        "question": "The meat of this tropical fruit can be found in multiple dried forms such as shredded, flakes, or chips.",
         "answer": "Coconut",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Specialty Produce",
+    "CategoryIndex": 42,
+    "questions": [
+      {
+        "Question ID": 1148,
+        "category": "Specialty Produce",
+        "CategoryIndex": 42,
+        "question": "True or False: Is Specialty Produce open to the public?",
+        "answer": "Yes, Specialty Produce is open seven days a week to everyone!",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1149,
+        "category": "Specialty Produce",
+        "CategoryIndex": 42,
+        "question": "Where is Specialty Produce located?",
+        "answer": "San Diego, CA",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1150,
+        "category": "Specialty Produce",
+        "CategoryIndex": 42,
+        "question": "Name one sub-brand of Specialty Produce.",
+        "answer": "Specialty Produce Network, Studio Kitchen, Waste Not, DineLocal, and Specialty Produce App",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "SP The App",
+    "CategoryIndex": 43,
+    "questions": [
+      {
+        "Question ID": 1151,
+        "category": "SP The App",
+        "CategoryIndex": 43,
+        "question": "What is the Specialty Produce App?",
+        "answer": "It is the most comprehensive fresh food database that allows you to discover over 2,500 produce items. The app features unique applications, recipes, and allows you to source items worldwide.",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1152,
+        "category": "SP The App",
+        "CategoryIndex": 43,
+        "question": "Is the Specialty Produce App available on both Android and iOS platform?",
+        "answer": "Yes",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1153,
+        "category": "SP The App",
+        "CategoryIndex": 43,
+        "question": "What are three components of the app?",
+        "answer": "Share Market, Product Page, and Recipe",
         "funFact": "",
         "pointvalue": 300
       }
