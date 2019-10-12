@@ -46,7 +46,9 @@ class App extends React.Component {
       cat1x300: "start",
       cat2x300: "start",
       cat3x300: "start",
-      gameStatus: "inProgress"
+      gameStatus: "inProgress",
+      player1Turn: true,
+      player2Turn: false
     };
 
     this.onP1ScoreUpdate = this.onP1ScoreUpdate.bind(this);
@@ -56,6 +58,7 @@ class App extends React.Component {
     this.onP1ScoreNegativeAdjust = this.onP1ScoreNegativeAdjust.bind(this);
     this.onP2ScorePositiveAdjust = this.onP2ScorePositiveAdjust.bind(this);
     this.onP2ScoreNegativeAdjust = this.onP2ScoreNegativeAdjust.bind(this);
+    this.togglePlayerTurn = this.togglePlayerTurn.bind(this);
 
     this.newGame = this.newGame.bind(this);
   }
@@ -81,6 +84,16 @@ class App extends React.Component {
 
   onP2ScoreNegativeAdjust() {
     this.setState({ player2score: this.state.player2score - 100 });
+  }
+
+  togglePlayerTurn() {
+    this.setState(prevState => ({
+      player1Turn: !prevState.player1Turn
+    }));
+
+    this.setState(prevState => ({
+      player2Turn: !prevState.player2Turn
+    }));
   }
 
   updateCardState = name => {
@@ -139,6 +152,8 @@ class App extends React.Component {
                 category="Team Blue"
                 score={this.state.player1score}
                 color="primary"
+                isSelected={this.state.player1Turn}
+                togglePlayerTurn={this.togglePlayerTurn}
                 playerscorepositiveadjust={this.onP1ScorePositiveAdjust}
                 playerscorenegativeadjust={this.onP1ScoreNegativeAdjust}
               />
@@ -374,6 +389,8 @@ class App extends React.Component {
                 category="Team Red"
                 score={this.state.player2score}
                 color="danger"
+                isSelected={this.state.player2Turn}
+                togglePlayerTurn={this.togglePlayerTurn}
                 playerscorepositiveadjust={this.onP2ScorePositiveAdjust}
                 playerscorenegativeadjust={this.onP2ScoreNegativeAdjust}
               />
