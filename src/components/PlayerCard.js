@@ -12,9 +12,16 @@ class PlayerCard extends React.Component {
   state = { status: "" };
 
   renderContent() {
+    let className = "text-center noSidePadding  dropshadow";
+        if (this.props.isSelected) {
+          className += ' selected';
+        }
+    
     return (
+      
+      
       <Card
-        className="text-center noSidePadding  dropshadow"
+        className={className}
         inverse
         color={this.props.color}
       >
@@ -27,6 +34,8 @@ class PlayerCard extends React.Component {
 
                   <Button className="score-adjust-button" color={this.props.color} onClick={this.props.playerscorenegativeadjust}>
                     -
+                  </Button>
+                  <Button className="score-adjust-button" color={this.props.color} onClick={this.props.togglePlayerTurn}>control
                   </Button>
                   <Button className="score-adjust-button" color={this.props.color} onClick={this.props.playerscorepositiveadjust}>
                     +
