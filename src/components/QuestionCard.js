@@ -43,6 +43,7 @@ class QuestionCard extends React.Component {
 
     onP1ButtonClick = () => {
         this.props.p1scoreupdate(this.props.pointValue)
+        this.props.togglePlayerTurn()
 
         // if (this.state.status === 'start') {
         //     this.setState({ status: 'question' })
@@ -55,7 +56,7 @@ class QuestionCard extends React.Component {
     };
     onP2ButtonClick = () => {
         this.props.p2scoreupdate(this.props.pointValue)
-
+        this.props.togglePlayerTurn()
         // if (this.state.status === 'start') {
         //     this.setState({ status: 'question' })
         // }
@@ -66,7 +67,7 @@ class QuestionCard extends React.Component {
         }
     };
     onNobodyClick = () => {
-
+        this.props.togglePlayerTurn()
         // if (this.state.status === 'start') {
         //     this.setState({ status: 'question' })
         // }

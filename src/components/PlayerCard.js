@@ -35,8 +35,7 @@ class PlayerCard extends React.Component {
                   <Button className="score-adjust-button" color={this.props.color} onClick={this.props.playerscorenegativeadjust}>
                     -
                   </Button>
-                  <Button className="score-adjust-button" color={this.props.color} onClick={this.props.togglePlayerTurn}>
-                     
+                  <Button className="score-adjust-button" color={this.props.color} onClick={this.props.togglePlayerTurn}>control
                   </Button>
                   <Button className="score-adjust-button" color={this.props.color} onClick={this.props.playerscorepositiveadjust}>
                     +

@@ -198,6 +198,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat1}`].questions[0].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -220,6 +221,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat2}`].questions[0].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -242,6 +244,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat3}`].questions[0].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -266,6 +269,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat1}`].questions[1].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -288,6 +292,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat2}`].questions[1].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -310,6 +315,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat3}`].questions[1].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -334,6 +340,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat1}`].questions[2].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -356,6 +363,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat2}`].questions[2].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
@@ -378,6 +386,7 @@ class App extends React.Component {
                     funfact={
                       Categories[`${this.state.cat3}`].questions[2].funFact
                     }
+                    togglePlayerTurn={this.togglePlayerTurn}
                     p1scoreupdate={this.onP1ScoreUpdate}
                     p2scoreupdate={this.onP2ScoreUpdate}
                   />
