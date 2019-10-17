@@ -25,8 +25,8 @@ module.exports = [
         "Question ID": 1000,
         "category": "Lettuce",
         "CategoryIndex": 1,
-        "question": "What food chain banned Iceberg lettuce from their menu?",
-        "answer": "Chick-fil-A",
+        "question": "Celtuce is another name for asparagus lettuce or celery leaves ?",
+        "answer": "Asparagus Lettuce",
         "funFact": "",
         "pointvalue": 300
       }
@@ -51,7 +51,7 @@ module.exports = [
         "CategoryIndex": 2,
         "question": "True or False: Knucklehead pumpkins are a real variety of pumpkin.",
         "answer": "TRUE",
-        "funFact": "True, the variety was created in 2008 in Holland, Michigan by Siegers Seeds.",
+        "funFact": "",
         "pointvalue": 200
       },
       {
@@ -60,7 +60,7 @@ module.exports = [
         "CategoryIndex": 2,
         "question": "From what country did the name jack-o-lantern originate?",
         "answer": "Ireland",
-        "funFact": "In Ireland, the term jack-o-lantern evolved from a folk tale about a man named Stingy Jack",
+        "funFact": "The term jack-o-lantern evolved from a folk tale about a man named Stingy Jack",
         "pointvalue": 300
       }
     ]
@@ -75,7 +75,7 @@ module.exports = [
         "CategoryIndex": 3,
         "question": "True or False: White strawberries are available year round.",
         "answer": "FALSE",
-        "funFact": "White strawberries are available in the spring and summer. Most white strawberries exhibit a similar flavor to red varieties with unique notes of pineapple, green leaves, caramel, and grapes",
+        "funFact": "White strawberries are available in the spring and summer. ",
         "pointvalue": 100
       },
       {
@@ -84,7 +84,7 @@ module.exports = [
         "CategoryIndex": 3,
         "question": "True or False: Ume plums are classified as an apricot but are referred to as a plum.",
         "answer": "TRUE",
-        "funFact": "Ume plums are seldom harvested fully ripe and are picked when young for use in salty pickled plum recipes, often called umeboshi in Japan",
+        "funFact": "",
         "pointvalue": 200
       },
       {
@@ -115,8 +115,8 @@ module.exports = [
         "Question ID": 1011,
         "category": "Asia",
         "CategoryIndex": 4,
-        "question": "What berry is nicknamed“the happy berry?\"",
-        "answer": "Goji berries",
+        "question": "Gai Lan is another name for rapini or Chinese broccoli ?",
+        "answer": "Chinese Broccoli",
         "funFact": "",
         "pointvalue": 200
       },
@@ -126,7 +126,7 @@ module.exports = [
         "CategoryIndex": 4,
         "question": "What fruit is regarded as the \"king of fruits\" in Asia?",
         "answer": "Durian",
-        "funFact": "Durian is banned due to its large size, strong smell, and prickly thorns. The smell of Durian is so polarizing that it is banned and considered illegal in select public places as the secnt can linger for days",
+        "funFact": "The smell of Durian is so polarizing that it is banned and considered illegal in select public places as the scent can linger for days",
         "pointvalue": 300
       }
     ]
@@ -141,7 +141,7 @@ module.exports = [
         "CategoryIndex": 5,
         "question": "True or False: Thai wax apples are actually a berry.",
         "answer": "TRUE",
-        "funFact": "They only resemble an apple in color and skin texture. They are actually a berry!",
+        "funFact": "They only resemble an apple in color and skin texture.",
         "pointvalue": 100
       },
       {
@@ -157,7 +157,7 @@ module.exports = [
         "Question ID": 1015,
         "category": "Asia",
         "CategoryIndex": 5,
-        "question": "What citrus is a hybrid of an orange, mandarin, and a ponkan?",
+        "question": "What citrus  was given its name due to its oval pear-shape with a distinct protrusion that resembles the traditional hair style of Japanese wrestlers ?",
         "answer": "Sumo citrus aka Dekopon",
         "funFact": "",
         "pointvalue": 300
@@ -181,8 +181,8 @@ module.exports = [
         "Question ID": 1019,
         "category": "Potatoes",
         "CategoryIndex": 6,
-        "question": "True of False: Peru is home to over 3,000 different varieties of potatoes.",
-        "answer": "TRUE",
+        "question": "Today, Russet Burbank potatoes account for which percent of the potato market in North America: 45% or 70%",
+        "answer": "70%",
         "funFact": "",
         "pointvalue": 200
       },
@@ -190,8 +190,8 @@ module.exports = [
         "Question ID": 1021,
         "category": "Potatoes",
         "CategoryIndex": 6,
-        "question": "What are chunos?",
-        "answer": "Chunos are naturally freeze dried potatoes made by foot in Peru. These preserved potatoes can last for many years!",
+        "question": "True or False: Peru is home to over 3,000 different varieties of potatoes.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
       }
@@ -235,21 +235,21 @@ module.exports = [
     "CategoryIndex": 8,
     "questions": [
       {
-        "Question ID": 1024,
+        "Question ID": 1025,
         "category": "Garlic",
         "CategoryIndex": 8,
-        "question": "What color are garlic cloves?",
-        "answer": "White",
-        "funFact": "",
+        "question": "At its largest size, an elephant garlic bulb can grow to be the size of a softball or golf ball ?",
+        "answer": "Softball",
+        "funFact": "This softball- sized bulb can weigh as much as 1 LB",
         "pointvalue": 100
       },
       {
-        "Question ID": 1026,
+        "Question ID": 1030,
         "category": "Garlic",
         "CategoryIndex": 8,
-        "question": "True or False: There is only one type of garlic.",
-        "answer": "FALSE",
-        "funFact": "There are many different varieties of garlic grown across the world",
+        "question": "What are the two main types of garlic?",
+        "answer": "Hardneck and softneck garlic",
+        "funFact": "",
         "pointvalue": 200
       },
       {
@@ -265,48 +265,15 @@ module.exports = [
   },
   {
     "category": "Garlic",
-    "CategoryIndex": 9,
-    "questions": [
-      {
-        "Question ID": 1025,
-        "category": "Garlic",
-        "CategoryIndex": 9,
-        "question": "What can garlic be used for?",
-        "answer": "Anything!",
-        "funFact": "",
-        "pointvalue": 100
-      },
-      {
-        "Question ID": 1028,
-        "category": "Garlic",
-        "CategoryIndex": 9,
-        "question": "True or False: All garlic tastes the same.",
-        "answer": "FALSE",
-        "funFact": "There are many different varieties of garlic that vary in levels of acidity, spiciness, and pungency",
-        "pointvalue": 200
-      },
-      {
-        "Question ID": 1030,
-        "category": "Garlic",
-        "CategoryIndex": 9,
-        "question": "What are the two main types of garlic?",
-        "answer": "Hardneck and softneck garlic",
-        "funFact": "",
-        "pointvalue": 300
-      }
-    ]
-  },
-  {
-    "category": "Garlic",
     "CategoryIndex": 10,
     "questions": [
       {
         "Question ID": 1027,
         "category": "Garlic",
         "CategoryIndex": 10,
-        "question": "True or False: Garlic should only be used for Italian food.",
+        "question": "True or False: Garlic Scapes are available in late summer and early winter months ?",
         "answer": "FALSE",
-        "funFact": "",
+        "funFact": "Available in late spring and early summer months",
         "pointvalue": 100
       },
       {
@@ -314,7 +281,7 @@ module.exports = [
         "category": "Garlic",
         "CategoryIndex": 10,
         "question": "Where is the majority of garlic grown in the United States?",
-        "answer": "California",
+        "answer": "California ",
         "funFact": "",
         "pointvalue": 200
       },
@@ -323,7 +290,7 @@ module.exports = [
         "category": "Garlic",
         "CategoryIndex": 10,
         "question": "What famous tomb did researchers find remnants of garlic?",
-        "answer": "Ancient Egypt in King Tut’s tomb",
+        "answer": "Ancient Egypt in King Tutt's tomb",
         "funFact": "",
         "pointvalue": 300
       }
@@ -346,9 +313,9 @@ module.exports = [
         "Question ID": 1034,
         "category": "Citrus",
         "CategoryIndex": 11,
-        "question": "Who discovered and brought the Meyer lemon tree to the United States?",
-        "answer": "Frank Nicholas Meyer, a plant explorer who worked for the USDA",
-        "funFact": "",
+        "question": "True or false: The Oro Blanco grapefruit is known for its extreme bitterness and large seeds",
+        "answer": "FALSE",
+        "funFact": "Its flesh is tender, juicy, seedless and sweet with a large hollow core",
         "pointvalue": 200
       },
       {
@@ -357,7 +324,7 @@ module.exports = [
         "CategoryIndex": 11,
         "question": "The first Cara Cara orange was discovered growing as a natural mutation on what type of tree?",
         "answer": "Washington Navel orange tree",
-        "funFact": "Tangerines originally grew in southeastern China and northeastern India three thousand years ago",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -370,8 +337,8 @@ module.exports = [
         "Question ID": 1037,
         "category": "Tropical",
         "CategoryIndex": 12,
-        "question": "What countries are tropical fruits cultivated in?",
-        "answer": "Central America, South America, Asia, Southeast Asia, Africa, Hawaii",
+        "question": "True or False: Mangoes are categorized as a drupe, also known as a stone fruit.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
       },
@@ -421,9 +388,9 @@ module.exports = [
         "Question ID": 1041,
         "category": "Apples",
         "CategoryIndex": 13,
-        "question": "Why do almost all modern farmers use the technique known as grafting when growing apple crops?",
-        "answer": "Apples cannot grow true to seed",
-        "funFact": "Apples feature a characteristic known as heterozygosity, which means they cannot grow true to seed",
+        "question": "True or False: Green Dragon apples have a low-acid content creating a very sweet flavor",
+        "answer": "TRUE",
+        "funFact": "Green Dragon apples are favored for their crisp texture and juicy, sweet flavor",
         "pointvalue": 300
       }
     ]
@@ -447,15 +414,15 @@ module.exports = [
         "CategoryIndex": 14,
         "question": "What avocado does not have the typical large pit found in other avocados?",
         "answer": "Cocktail avocados",
-        "funFact": "Cocktail avocados are the result of an un-pollinated avocado blossom. They can develop through many cultivars, but most often occur on Fuerte and Mexicola.",
+        "funFact": "",
         "pointvalue": 200
       },
       {
         "Question ID": 1046,
         "category": "Avocados",
         "CategoryIndex": 14,
-        "question": "European sailors used avocados as a cheap, alternative spread in the 1700s, giving the fruit this nickname.",
-        "answer": "Midshipman’s butter or poor man’s butter",
+        "question": "True or False: In the 1700s, European sailors used avocados as a cheap alternative spread giving the fruit the nick name \"poor man's butter\"",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
       }
@@ -544,9 +511,9 @@ module.exports = [
         "Question ID": 1053,
         "category": "Grapes",
         "CategoryIndex": 17,
-        "question": "What are the two general classifications for grapes, based on how the grape is used?",
-        "answer": "Table grapes and wine grapes",
-        "funFact": "",
+        "question": "True or False: Kyoho Grapes are extremely sweet with a sugar content of about 18 to 20 Brix ?",
+        "answer": "TRUE",
+        "funFact": "In comparison to the average table grape is closer is closer to 12 Brix, Kyoho Grapes are known for their low acid and high sugar content.",
         "pointvalue": 200
       },
       {
@@ -568,8 +535,8 @@ module.exports = [
         "Question ID": 1056,
         "category": "Grapes",
         "CategoryIndex": 18,
-        "question": "True or False: In many ancient cities people drank wine diluted with water as regular tapwater was not safe to consume.",
-        "answer": "TRUE",
+        "question": "Do grapes grow on trees or vines?",
+        "answer": "Vines",
         "funFact": "",
         "pointvalue": 100
       },
@@ -577,8 +544,8 @@ module.exports = [
         "Question ID": 1054,
         "category": "Grapes",
         "CategoryIndex": 18,
-        "question": "What are the two main types of grapes based on the grape's native land?",
-        "answer": "North American and European",
+        "question": "True or False: In many ancient cities people drank wine diluted with water as regular tapwater was not safe to consume.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
       },
@@ -588,7 +555,7 @@ module.exports = [
         "CategoryIndex": 18,
         "question": "Eating twelve grapes at midnight on New Year's Eve is both a tradition and a superstition in what country?",
         "answer": "Spain",
-        "funFact": "This tradition is now also practiced in Mexico and other Latin American countries. The grape variety traditionally used in Spain is called Aledo, which is a Spanish table grape with white-green skin and fleshy, sweet pulp that grows on the Mediterranean coast.",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -621,7 +588,7 @@ module.exports = [
         "CategoryIndex": 19,
         "question": "True or False: Tomatoes are botanically considered berries.",
         "answer": "TRUE",
-        "funFact": "Berries are simple fruits stemming from a flower with one ovary and typically have several seeds.",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -654,7 +621,7 @@ module.exports = [
         "CategoryIndex": 20,
         "question": "The smallest species of edible cherry tomatoes are called _________ tomatoes.",
         "answer": "Currant",
-        "funFact": "Currant tomatoes weigh an average of just three grams and measure just over a centimeter in diameter",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -669,7 +636,7 @@ module.exports = [
         "CategoryIndex": 21,
         "question": "True or False: An heirloom tomato variety is one that has been around more than fifty years and can reproduce from seed.",
         "answer": "TRUE",
-        "funFact": "They are also known for their unique shapes and colors",
+        "funFact": "",
         "pointvalue": 100
       },
       {
@@ -678,7 +645,7 @@ module.exports = [
         "CategoryIndex": 21,
         "question": "What is the most common antioxidant found in tomatoes?",
         "answer": "Lycopene",
-        "funFact": "Controversy surrounds newer varieties being marketed as heirlooms. Thanks to the growing favor of heirloom tomatoes, open-pollinated varieties with exceptional qualities, especially flavor, are being introduced into the marketplace as heirlooms without such long histories.",
+        "funFact": "",
         "pointvalue": 200
       },
       {
@@ -687,7 +654,7 @@ module.exports = [
         "CategoryIndex": 21,
         "question": "What is the most popular home garden heirloom tomato variety?",
         "answer": "Pink Brandywine",
-        "funFact": "The Pink Brandywine is credited with bringing heirloom tomatoes back into popularity after the rise of hybridization in the twentieth century. Since their reintroduction to the American market in the 1980s, there have been many Brandywine sub-strains created through selection and crossbreeding.",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -720,7 +687,7 @@ module.exports = [
         "CategoryIndex": 22,
         "question": "Name the pear that is a cross between an American Giant Seckel pear and the European pear.",
         "answer": "Warren pear",
-        "funFact": "Believed to be a naturally occurring cross between an American Giant Seckel pear and the European pear, this pear is favored by celebrities such as Oprah Winfrey and Martha Stewart.",
+        "funFact": "",
         "pointvalue": 300
       }
     ]
@@ -801,7 +768,7 @@ module.exports = [
         "CategoryIndex": 25,
         "question": "Which fruit contains more potassium: The green plantain banana or common banana?",
         "answer": "Green Plantain Banana",
-        "funFact": "Green plantains have almost twice the potassium as the common banana.",
+        "funFact": "They have almost twice the potassium as the common banana.",
         "pointvalue": 100
       },
       {
@@ -834,14 +801,14 @@ module.exports = [
         "CategoryIndex": 26,
         "question": "True or False: Mistletoe is poisonous to humans, but it is an important food source for other animals.",
         "answer": "TRUE",
-        "funFact": "Mistletoe is an important food source for birds, deer, and porcupines.",
+        "funFact": "(birds, deer, and porcupines)",
         "pointvalue": 100
       },
       {
         "Question ID": 1093,
         "category": "Foraged",
         "CategoryIndex": 26,
-        "question": "What fruit is produced from the flower of a catcus pad?",
+        "question": "What fruit is produced from the flower of a cactus pad?",
         "answer": "Prickly Pear",
         "funFact": "",
         "pointvalue": 200
@@ -850,8 +817,8 @@ module.exports = [
         "Question ID": 1094,
         "category": "Foraged",
         "CategoryIndex": 26,
-        "question": "Before hops, what other ingredient did colonials use to make beer?",
-        "answer": "Spruce tips",
+        "question": "True or False: Spruce tips have lemony citrus notes and an herbal quality similar to rosemary",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
       }
@@ -898,17 +865,17 @@ module.exports = [
         "Question ID": 1098,
         "category": "Specialty Fruit",
         "CategoryIndex": 28,
-        "question": "What berry alters the sweet receptors on the tongue and changes sour flavors to sweet flavors?",
-        "answer": "Miracle berry or Magic berry",
-        "funFact": "",
+        "question": "True or False: Dragon fruit seeds are edible",
+        "answer": "TRUE",
+        "funFact": "They are high in polyunsaturated fats like omega-3 and omega-6 fatty acids.",
         "pointvalue": 100
       },
       {
         "Question ID": 1099,
         "category": "Specialty Fruit",
         "CategoryIndex": 28,
-        "question": "How many flesh colors does a dragon fruit have?",
-        "answer": "Two: Red and white",
+        "question": "What berry alters the sweet receptors on the tongue and changes sour flavors to sweet flavors?",
+        "answer": "Miracle berry or magic berry",
         "funFact": "",
         "pointvalue": 200
       },
@@ -949,8 +916,8 @@ module.exports = [
         "Question ID": 1102,
         "category": "Melons",
         "CategoryIndex": 29,
-        "question": "What country was the name cantaloupe derived from?",
-        "answer": "France",
+        "question": "What is the most commercially successful winter melons on the market today?",
+        "answer": "Honeydew melon",
         "funFact": "",
         "pointvalue": 300
       }
@@ -973,7 +940,7 @@ module.exports = [
         "Question ID": 1105,
         "category": "Root Vegetables",
         "CategoryIndex": 30,
-        "question": "True or False: Yucca root can be cooked similarly to a potato.",
+        "question": "True or False: Yuca root can be cooked similarly to a potato.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
@@ -983,7 +950,7 @@ module.exports = [
         "category": "Root Vegetables",
         "CategoryIndex": 30,
         "question": "What \"powerhouse\" root contains natural antibiotic, anti-inflammatory, and antioxidant properties?",
-        "answer": "Ginger",
+        "answer": "Ginger, turmeric",
         "funFact": "",
         "pointvalue": 300
       }
@@ -1129,7 +1096,7 @@ module.exports = [
         "Question ID": 1119,
         "category": "Edible Flowers",
         "CategoryIndex": 35,
-        "question": "True or False- Edible flowers can add texture, color, and flavor to culinary dishes.",
+        "question": "True or False: Edible flowers can add texture, color, and flavor to culinary dishes.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
@@ -1148,7 +1115,7 @@ module.exports = [
         "category": "Edible Flowers",
         "CategoryIndex": 35,
         "question": "What culinary dishes can edible flowers be added to?",
-        "answer": "Anything!",
+        "answer": "Anything! ",
         "funFact": "Salads, grain bowls, smoothie bowls, vegetables etc.",
         "pointvalue": 300
       }
@@ -1162,7 +1129,7 @@ module.exports = [
         "Question ID": 1124,
         "category": "Leaves",
         "CategoryIndex": 36,
-        "question": "True or False- Leaves have been used in medicinal and culinary applications since ancient times.",
+        "question": "True or False: Leaves have been used in medicinal and culinary applications since ancient times.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 100
@@ -1171,7 +1138,7 @@ module.exports = [
         "Question ID": 1127,
         "category": "Leaves",
         "CategoryIndex": 36,
-        "question": "True or False- Pea tendrils have the same grassy, vegetal flavor as a fresh pea.",
+        "question": "\nTrue or False: Pea tendrils have the same grassy, vegetal flavor as a fresh pea.",
         "answer": "TRUE",
         "funFact": "",
         "pointvalue": 200
@@ -1228,17 +1195,17 @@ module.exports = [
         "Question ID": 1130,
         "category": "Micro Greens",
         "CategoryIndex": 38,
-        "question": "What season/s are Micro Chives available?",
-        "answer": "Year-round",
-        "funFact": "",
+        "question": "True or False: Micro Mint is the tiny edible version of the mature herb and is harvested 35-45 days after sowing.",
+        "answer": "FALSE",
+        "funFact": "It is harvested just 14-21 days after sowing.",
         "pointvalue": 100
       },
       {
         "Question ID": 1132,
         "category": "Micro Greens",
         "CategoryIndex": 38,
-        "question": "Do Popcorn Shoots taste like buttery popcorn?",
-        "answer": "Popcorn shoots are tender and crisp with a very sweet, mild corn flavor and grassy, tart undertones",
+        "question": "What season/s are Micro Chives available?",
+        "answer": "Year-round",
         "funFact": "",
         "pointvalue": 200
       },
@@ -1263,16 +1230,16 @@ module.exports = [
         "CategoryIndex": 39,
         "question": "Why is Saffron so expensive?",
         "answer": "It has to harvested by hand",
-        "funFact": "Saffron come from the stigma of the crocus sativus flower and each flower contains only 3-5 stigma. It takes one hundred flowers to produce only one gram of saffron.",
+        "funFact": "It takes 100 flowers to produce 1 gram of saffron.",
         "pointvalue": 100
       },
       {
         "Question ID": 1141,
         "category": "Spices",
         "CategoryIndex": 39,
-        "question": "What is the difference between herbs and spices?",
-        "answer": "Herbs are derived from the leaf of a plant and spices are sourced from bark, buds, roots, or seeds.",
-        "funFact": "",
+        "question": "Which has a milder flavor? Cinnamon stick or ground Cinnamon?",
+        "answer": "Cinnamon stick",
+        "funFact": "Ground Cinnamon is produced from the lower parts of the tree's trunk which produces more pronounced and stronger cinnamon flavor when ground.",
         "pointvalue": 200
       },
       {
@@ -1378,8 +1345,8 @@ module.exports = [
         "Question ID": 1150,
         "category": "Specialty Produce",
         "CategoryIndex": 42,
-        "question": "Name one sub-brand of Specialty Produce.",
-        "answer": "Specialty Produce Network, Studio Kitchen, Waste Not, DineLocal, and Specialty Produce App",
+        "question": "How many years has Speciaty Produce been established?",
+        "answer": "30 years",
         "funFact": "",
         "pointvalue": 300
       }
@@ -1411,8 +1378,74 @@ module.exports = [
         "Question ID": 1153,
         "category": "SP The App",
         "CategoryIndex": 43,
-        "question": "What are three components of the app?",
-        "answer": "Share Market, Product Page, and Recipe",
+        "question": "Around how many produce items can be found in Specialty Produce App?",
+        "answer": "over 3,000 produce items around the world",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "PMA",
+    "CategoryIndex": 44,
+    "questions": [
+      {
+        "Question ID": 1154,
+        "category": "PMA",
+        "CategoryIndex": 44,
+        "question": "What does PMA stands for?",
+        "answer": "Produce Marketing Association",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1155,
+        "category": "PMA",
+        "CategoryIndex": 44,
+        "question": "Where is the PMA Fresh Summit in 2020?",
+        "answer": "Dallas, Texas",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1156,
+        "category": "PMA",
+        "CategoryIndex": 44,
+        "question": "What is the name of the current PMA CEO?",
+        "answer": "Cathy Burns",
+        "funFact": "",
+        "pointvalue": 300
+      }
+    ]
+  },
+  {
+    "category": "Anaheim",
+    "CategoryIndex": 45,
+    "questions": [
+      {
+        "Question ID": 1157,
+        "category": "Anaheim",
+        "CategoryIndex": 45,
+        "question": "Which state does the city of Anaheim belong to?",
+        "answer": "California",
+        "funFact": "",
+        "pointvalue": 100
+      },
+      {
+        "Question ID": 1158,
+        "category": "Anaheim",
+        "CategoryIndex": 45,
+        "question": "What is the city of Anaheim known for?",
+        "answer": "Disneyland",
+        "funFact": "",
+        "pointvalue": 200
+      },
+      {
+        "Question ID": 1159,
+        "category": "Anaheim",
+        "CategoryIndex": 45,
+        "question": "True or False: Anaheim was founded by wine makers and grape farmers.",
+        "answer": "TRUE",
         "funFact": "",
         "pointvalue": 300
       }
